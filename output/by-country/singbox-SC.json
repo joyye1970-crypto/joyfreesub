@@ -6,16 +6,42 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇨 SC 01 - xiaohe",
-        "🇸🇨 SC 02 - xiaohe"
+        "🇸🇨 SC 01 - joyye",
+        "🇸🇨 SC 02 - joyye",
+        "🇸🇨 SC 03 - joyye",
+        "🇸🇨 SC 04 - joyye",
+        "🇸🇨 SC 05 - joyye",
+        "🇸🇨 SC 06 - joyye",
+        "🇸🇨 SC 07 - joyye",
+        "🇸🇨 SC 08 - joyye",
+        "🇸🇨 SC 09 - joyye",
+        "🇸🇨 SC 10 - joyye",
+        "🇸🇨 SC 11 - joyye",
+        "🇸🇨 SC 12 - joyye",
+        "🇸🇨 SC 13 - joyye",
+        "🇸🇨 SC 14 - joyye",
+        "🇸🇨 SC 15 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇨 SC 01 - xiaohe",
-        "🇸🇨 SC 02 - xiaohe"
+        "🇸🇨 SC 01 - joyye",
+        "🇸🇨 SC 02 - joyye",
+        "🇸🇨 SC 03 - joyye",
+        "🇸🇨 SC 04 - joyye",
+        "🇸🇨 SC 05 - joyye",
+        "🇸🇨 SC 06 - joyye",
+        "🇸🇨 SC 07 - joyye",
+        "🇸🇨 SC 08 - joyye",
+        "🇸🇨 SC 09 - joyye",
+        "🇸🇨 SC 10 - joyye",
+        "🇸🇨 SC 11 - joyye",
+        "🇸🇨 SC 12 - joyye",
+        "🇸🇨 SC 13 - joyye",
+        "🇸🇨 SC 14 - joyye",
+        "🇸🇨 SC 15 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
