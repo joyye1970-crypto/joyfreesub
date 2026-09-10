@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - joyye",
-        "🇦🇪 阿联酋 (UAE) 02 - joyye"
+        "🇷🇴 RO 01 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - joyye",
-        "🇦🇪 阿联酋 (UAE) 02 - joyye"
+        "🇷🇴 RO 01 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
