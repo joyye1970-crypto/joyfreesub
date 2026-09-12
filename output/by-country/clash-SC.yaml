@@ -6,107 +6,9 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - joyye
   type: vless
-  server: 108.162.198.178
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 02 - joyye
-  type: vmess
-  server: 156.226.183.181
-  port: 54321
-  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇨 SC 03 - joyye
-  type: vless
-  server: 104.18.34.14
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 04 - joyye
-  type: vless
-  server: 172.64.229.170
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 05 - joyye
-  type: vless
-  server: 108.162.198.178
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 06 - joyye
-  type: vless
-  server: 172.64.154.8
+  server: shrill-frost-6da5.155-dec.workers.dev
   port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 07 - joyye
-  type: vless
-  server: 104.21.70.21
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 08 - joyye
-  type: vmess
-  server: 156.226.183.181
-  port: 54321
-  uuid: d3bcc1f1-6294-4f68-bcf3-c3bcb2001520
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇸🇨 SC 09 - joyye
-  type: vless
-  server: 188.114.97.6
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  uuid: 9b7d9618-29a6-45e9-9eca-dcc7ad42f974
   udp: true
   tls: false
   skip-cert-verify: true
@@ -114,34 +16,18 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: shrill-frost-6da5.155-dec.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇸🇨 SC 01 - joyye
-  - 🇸🇨 SC 02 - joyye
-  - 🇸🇨 SC 03 - joyye
-  - 🇸🇨 SC 04 - joyye
-  - 🇸🇨 SC 05 - joyye
-  - 🇸🇨 SC 06 - joyye
-  - 🇸🇨 SC 07 - joyye
-  - 🇸🇨 SC 08 - joyye
-  - 🇸🇨 SC 09 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇸🇨 SC 01 - joyye
-  - 🇸🇨 SC 02 - joyye
-  - 🇸🇨 SC 03 - joyye
-  - 🇸🇨 SC 04 - joyye
-  - 🇸🇨 SC 05 - joyye
-  - 🇸🇨 SC 06 - joyye
-  - 🇸🇨 SC 07 - joyye
-  - 🇸🇨 SC 08 - joyye
-  - 🇸🇨 SC 09 - joyye
 rules:
 - MATCH,PROXIES
