@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - joyye",
-        "🇳🇴 NO 02 - joyye",
-        "🇳🇴 NO 03 - joyye"
+        "🇷🇴 RO 01 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - joyye",
-        "🇳🇴 NO 02 - joyye",
-        "🇳🇴 NO 03 - joyye"
+        "🇷🇴 RO 01 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
