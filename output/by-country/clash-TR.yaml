@@ -6,47 +6,33 @@ log-level: info
 proxies:
 - name: 🇹🇷 土耳其 (Turkey) 01 - joyye
   type: vless
-  server: 162.159.91.222
+  server: 104.21.238.93
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-723a643df685
+  uuid: 50414e45-4c5f-5a45-5553-44890b90d17e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: n3zaxce7u0es.crzl48eiuses.workers.dev
+  servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
   network: ws
   ws-opts:
-    path: /stream/PANEL_ZEUS/723a643df685/loc-0
+    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
     headers:
-      Host: n3zaxce7u0es.crzl48eiuses.workers.dev
+      Host: afzoybehu2ws.vtzv4xe1un6s.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 02 - joyye
   type: vless
-  server: 104.17.169.13
-  port: 2053
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  server: 172.67.151.109
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: inDeX.HaRMONiCA01.WORkers.DeV
+  servername: jdzit4e4urks.xwzohsebujps.workers.dev
   network: ws
   ws-opts:
-    path: /axch1mttbxz2k55y01
+    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
     headers:
-      Host: inDeX.HaRMONiCA01.WORkers.DeV
+      Host: jdzit4e4urks.xwzohsebujps.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 03 - joyye
-  type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
-- name: 🇹🇷 土耳其 (Turkey) 04 - joyye
   type: vless
   server: shop.neexbyte.ir
   port: 8443
@@ -60,6 +46,20 @@ proxies:
     path: ''
     headers:
       Host: ''
+- name: 🇹🇷 土耳其 (Turkey) 04 - joyye
+  type: vless
+  server: shop.neexbyte.ir
+  port: 8443
+  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shop.neexbyte.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shop.neexbyte.ir
 - name: 🇹🇷 土耳其 (Turkey) 05 - joyye
   type: vless
   server: 188.132.237.20
@@ -84,6 +84,20 @@ proxies:
       Host: jdzit4e4urks.xwzohsebujps.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 07 - joyye
   type: vless
+  server: 162.159.91.222
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-723a643df685
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: n3zaxce7u0es.crzl48eiuses.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/723a643df685/loc-0
+    headers:
+      Host: n3zaxce7u0es.crzl48eiuses.workers.dev
+- name: 🇹🇷 土耳其 (Turkey) 08 - joyye
+  type: vless
   server: shop.neexbyte.ir
   port: 8443
   uuid: 464bc502-f963-45b6-81e3-e33d18427506
@@ -96,23 +110,9 @@ proxies:
     path: /
     headers:
       Host: shop.neexbyte.ir
-- name: 🇹🇷 土耳其 (Turkey) 08 - joyye
-  type: vless
-  server: 172.67.151.109
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jdzit4e4urks.xwzohsebujps.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
-    headers:
-      Host: jdzit4e4urks.xwzohsebujps.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 09 - joyye
   type: vless
-  server: 172.67.134.170
+  server: 172.67.151.109
   port: 443
   uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
   udp: true
@@ -126,7 +126,7 @@ proxies:
       Host: jdzit4e4urks.xwzohsebujps.workers.dev
 - name: 🇹🇷 土耳其 (Turkey) 10 - joyye
   type: vless
-  server: 172.67.151.109
+  server: 172.67.134.170
   port: 443
   uuid: 50414e45-4c5f-5a45-5553-635698a6bb9c
   udp: true
@@ -138,20 +138,6 @@ proxies:
     path: /stream/PANEL_ZEUS/635698a6bb9c/loc-0
     headers:
       Host: jdzit4e4urks.xwzohsebujps.workers.dev
-- name: 🇹🇷 土耳其 (Turkey) 11 - joyye
-  type: vless
-  server: 104.21.238.93
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-44890b90d17e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
-    headers:
-      Host: afzoybehu2ws.vtzv4xe1un6s.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -167,7 +153,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 08 - joyye
   - 🇹🇷 土耳其 (Turkey) 09 - joyye
   - 🇹🇷 土耳其 (Turkey) 10 - joyye
-  - 🇹🇷 土耳其 (Turkey) 11 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -183,6 +168,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 08 - joyye
   - 🇹🇷 土耳其 (Turkey) 09 - joyye
   - 🇹🇷 土耳其 (Turkey) 10 - joyye
-  - 🇹🇷 土耳其 (Turkey) 11 - joyye
 rules:
 - MATCH,PROXIES

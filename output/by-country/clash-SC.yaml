@@ -6,22 +6,21 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - joyye
   type: vless
-  server: 45.131.6.123
-  port: 443
-  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: notls.lukongtou.eu.org
   network: ws
   ws-opts:
-    path: /Telegram-WangCai2🇨🇳
+    path: /?ed=2560
     headers:
-      Host: notls.lukongtou.eu.org
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 - name: 🇸🇨 SC 02 - joyye
   type: vless
-  server: 162.159.45.19
-  port: 2082
+  server: 104.18.34.14
+  port: 8880
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -31,87 +30,6 @@ proxies:
     path: /?ed=2560security=tls+
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 03 - joyye
-  type: vless
-  server: 162.159.43.187
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls+
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 04 - joyye
-  type: vless
-  server: 45.130.125.73
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: web-app-aug8yr.app-f1qsy1.workers.dev
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
-- name: 🇸🇨 SC 05 - joyye
-  type: vless
-  server: 162.159.48.32
-  port: 80
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 06 - joyye
-  type: vless
-  server: 172.64.52.6
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇸🇨 SC 07 - joyye
-  type: vless
-  server: 104.21.12.21
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nahan-core.fatitelegram.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.fatitelegram.workers.dev
-- name: 🇸🇨 SC 08 - joyye
-  type: vless
-  server: 104.16.72.30
-  port: 443
-  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xstack.mahanfixe.workers.dev
-  network: ws
-  ws-opts:
-    path: /xiron
-    headers:
-      Host: xstack.mahanfixe.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -119,12 +37,6 @@ proxy-groups:
   - AUTO
   - 🇸🇨 SC 01 - joyye
   - 🇸🇨 SC 02 - joyye
-  - 🇸🇨 SC 03 - joyye
-  - 🇸🇨 SC 04 - joyye
-  - 🇸🇨 SC 05 - joyye
-  - 🇸🇨 SC 06 - joyye
-  - 🇸🇨 SC 07 - joyye
-  - 🇸🇨 SC 08 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -132,11 +44,5 @@ proxy-groups:
   proxies:
   - 🇸🇨 SC 01 - joyye
   - 🇸🇨 SC 02 - joyye
-  - 🇸🇨 SC 03 - joyye
-  - 🇸🇨 SC 04 - joyye
-  - 🇸🇨 SC 05 - joyye
-  - 🇸🇨 SC 06 - joyye
-  - 🇸🇨 SC 07 - joyye
-  - 🇸🇨 SC 08 - joyye
 rules:
 - MATCH,PROXIES

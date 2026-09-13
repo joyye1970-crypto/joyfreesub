@@ -5,19 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - joyye
-  type: vless
-  server: 219.76.13.169
+  type: vmess
+  server: mtckundigepwu3up.v.3dns.vip
   port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vp10.pages.dev
+  servername: mtckundigepwu3up.v.3dns.vip
   network: ws
   ws-opts:
-    path: /
+    path: /ws-vmess
     headers:
-      Host: vp10.pages.dev
+      Host: mtckundigepwu3up.v.3dns.vip
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - joyye
   type: vmess
   server: 47.83.19.148
@@ -34,6 +36,86 @@ proxies:
     path: /ws-vmess
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - joyye
+  type: vmess
+  server: 20.235.220.189
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - joyye
+  type: vmess
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - joyye
+  type: vmess
+  server: i2psm3knof5qjjix.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - joyye
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - joyye
+  type: vmess
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
 proxy-groups:
 - name: PROXIES
   type: select
@@ -41,6 +123,11 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 - joyye
   - 🇭🇰 中国香港 (Hong Kong) 02 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 03 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 04 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 05 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 06 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 07 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -48,5 +135,10 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 - joyye
   - 🇭🇰 中国香港 (Hong Kong) 02 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 03 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 04 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 05 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 06 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 07 - joyye
 rules:
 - MATCH,PROXIES
