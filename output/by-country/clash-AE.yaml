@@ -6,29 +6,29 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - joyye
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.58.181.88
+  port: 8443
+  uuid: c86f3ea2-4594-4966-a14a-8c7a45051b69
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 02 - joyye
+  type: vless
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /snob-ws
     headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - joyye
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
+      Host: cdn.snobvpn.online
 - name: 🇦🇪 阿联酋 (UAE) 03 - joyye
   type: vless
   server: 89.125.147.199
@@ -40,33 +40,31 @@ proxies:
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 04 - joyye
   type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
+  server: 31.58.181.88
+  port: 8443
+  uuid: 36d8ee9f-f14d-4de6-bcf3-39522a09e206
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /axch1mttbxz2k55y01
-    headers:
-      Host: index.harmonica01.workers.dev
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 05 - joyye
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 31.58.181.88
+  port: 8443
+  uuid: f62a8f0e-f8db-48a6-8f52-84922aa63368
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 06 - joyye
   type: vless
   server: 84.235.244.108
@@ -82,9 +80,9 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 07 - joyye
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 188.114.97.6
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
@@ -92,34 +90,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - joyye
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 09 - joyye
-  type: vless
-  server: 54.178.110.17
-  port: 4443
-  uuid: d5fbd83b-7346-4ad9-94c0-76293724824d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -132,8 +103,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - joyye
   - 🇦🇪 阿联酋 (UAE) 06 - joyye
   - 🇦🇪 阿联酋 (UAE) 07 - joyye
-  - 🇦🇪 阿联酋 (UAE) 08 - joyye
-  - 🇦🇪 阿联酋 (UAE) 09 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -146,7 +115,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - joyye
   - 🇦🇪 阿联酋 (UAE) 06 - joyye
   - 🇦🇪 阿联酋 (UAE) 07 - joyye
-  - 🇦🇪 阿联酋 (UAE) 08 - joyye
-  - 🇦🇪 阿联酋 (UAE) 09 - joyye
 rules:
 - MATCH,PROXIES
