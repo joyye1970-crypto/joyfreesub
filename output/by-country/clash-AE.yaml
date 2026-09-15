@@ -8,7 +8,7 @@ proxies:
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: c86f3ea2-4594-4966-a14a-8c7a45051b69
+  uuid: a6dca797-9803-4f2c-ae45-e6bd8d0e9842
   udp: true
   tls: true
   skip-cert-verify: true
@@ -18,17 +18,16 @@ proxies:
   client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 02 - joyye
   type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 31.58.181.88
+  port: 8443
+  uuid: 64532781-8f49-4837-9943-87142e8c5ddc
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /snob-ws
-    headers:
-      Host: cdn.snobvpn.online
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 03 - joyye
   type: vless
   server: 89.125.147.199
@@ -43,21 +42,21 @@ proxies:
   client-fingerprint: chrome
 - name: 🇦🇪 阿联酋 (UAE) 04 - joyye
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 36d8ee9f-f14d-4de6-bcf3-39522a09e206
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 05 - joyye
   type: vless
   server: 31.58.181.88
   port: 8443
-  uuid: f62a8f0e-f8db-48a6-8f52-84922aa63368
+  uuid: 1e158ab2-d28a-41c8-b31d-8ea2d8706fe7
   udp: true
   tls: true
   skip-cert-verify: true
@@ -66,6 +65,55 @@ proxies:
   servername: tradingview.com
   client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 06 - joyye
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 94f1b60a-7786-4ab4-a1f6-eb5591c3d645
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 07 - joyye
+  type: vless
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 08 - joyye
+  type: vless
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /snob-ws
+    headers:
+      Host: cdn.snobvpn.online
+- name: 🇦🇪 阿联酋 (UAE) 09 - joyye
+  type: vless
+  server: 31.58.181.88
+  port: 8443
+  uuid: 70bd60b1-f399-4df4-ad32-9adc40ae5f2c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
+  servername: tradingview.com
+  client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 10 - joyye
   type: vless
   server: 84.235.244.108
   port: 22573
@@ -78,19 +126,19 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - joyye
+- name: 🇦🇪 阿联酋 (UAE) 11 - joyye
   type: vless
-  server: 188.114.97.6
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /snob-ws
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: cdn.snobvpn.online
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,6 +151,10 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - joyye
   - 🇦🇪 阿联酋 (UAE) 06 - joyye
   - 🇦🇪 阿联酋 (UAE) 07 - joyye
+  - 🇦🇪 阿联酋 (UAE) 08 - joyye
+  - 🇦🇪 阿联酋 (UAE) 09 - joyye
+  - 🇦🇪 阿联酋 (UAE) 10 - joyye
+  - 🇦🇪 阿联酋 (UAE) 11 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -115,5 +167,9 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - joyye
   - 🇦🇪 阿联酋 (UAE) 06 - joyye
   - 🇦🇪 阿联酋 (UAE) 07 - joyye
+  - 🇦🇪 阿联酋 (UAE) 08 - joyye
+  - 🇦🇪 阿联酋 (UAE) 09 - joyye
+  - 🇦🇪 阿联酋 (UAE) 10 - joyye
+  - 🇦🇪 阿联酋 (UAE) 11 - joyye
 rules:
 - MATCH,PROXIES
