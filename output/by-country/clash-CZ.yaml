@@ -4,27 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - joyye
-  type: vmess
-  server: 124.151.45.60
-  port: 38320
-  uuid: d643d6ea-2e48-4ad5-b96e-d11b889cc6a6
-  alterId: 0
-  cipher: auto
+- name: 🇨🇿 CZ 01 - joyye
+  type: vless
+  server: 162.159.45.19
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - joyye
+  - 🇨🇿 CZ 01 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - joyye
+  - 🇨🇿 CZ 01 - joyye
 rules:
 - MATCH,PROXIES
