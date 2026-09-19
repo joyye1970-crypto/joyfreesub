@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - joyye
   type: vless
-  server: 195.85.23.252
+  server: 195.85.23.219
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -20,21 +20,21 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 02 - joyye
   type: vless
-  server: 195.85.23.75
+  server: 188.114.97.6
   port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  uuid: bd8c736e-cae1-43d7-b573-9672e6ca4989
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /vl/zXLTmz3hE3szn64f?ed=2560
     headers:
-      Host: nb.lovecf.ggff.net
+      Host: l0n0qgkdttu061g57fhqzbet333s4t.ade-1004.workers.dev
 - name: 🇨🇿 CZ 03 - joyye
   type: vless
-  server: 195.85.23.252
+  server: 195.85.23.217
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -46,6 +46,20 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 04 - joyye
+  type: vless
+  server: 172.67.203.158
+  port: 443
+  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
+    headers:
+      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,6 +68,7 @@ proxy-groups:
   - 🇨🇿 CZ 01 - joyye
   - 🇨🇿 CZ 02 - joyye
   - 🇨🇿 CZ 03 - joyye
+  - 🇨🇿 CZ 04 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +77,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - joyye
   - 🇨🇿 CZ 02 - joyye
   - 🇨🇿 CZ 03 - joyye
+  - 🇨🇿 CZ 04 - joyye
 rules:
 - MATCH,PROXIES

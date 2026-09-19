@@ -6,6 +6,46 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - joyye
   type: vless
+  server: 172.67.131.112
+  port: 443
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
+- name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 8080
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 03 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
+  type: vless
   server: 46.8.200.91
   port: 443
   uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
@@ -18,9 +58,9 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
+- name: 🇷🇺 俄罗斯 (Russia) 05 - joyye
   type: vless
-  server: 188.114.97.6
+  server: 162.159.43.187
   port: 2086
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
@@ -28,13 +68,13 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls+
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 03 - joyye
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 06 - joyye
   type: vless
-  server: 162.159.45.19
-  port: 80
+  server: 162.159.0.53
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -44,12 +84,59 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
+- name: 🇷🇺 俄罗斯 (Russia) 07 - joyye
+  type: vless
+  server: 108.162.198.178
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 08 - joyye
   type: ss
-  server: 195.58.48.137
+  server: 134.0.112.71
+  port: 17517
+  cipher: aes-256-gcm
+  password: 64Kms+G+nD6FlGJjZJfeUNJIGbX/EKrk2o/MH04zApw=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 09 - joyye
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 10 - joyye
+  type: vless
+  server: 104.18.151.172
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 7bzzv.umtm.n70.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 7bzzv.umtm.n70.hh.vavava.kdns.fr
+- name: 🇷🇺 俄罗斯 (Russia) 11 - joyye
+  type: ss
+  server: 195.133.5.102
   port: 10900
   cipher: aes-256-gcm
-  password: 8ad9d72a5571df86
+  password: 895b4b796a357570
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -60,6 +147,13 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - joyye
   - 🇷🇺 俄罗斯 (Russia) 03 - joyye
   - 🇷🇺 俄罗斯 (Russia) 04 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 05 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 06 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 07 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 08 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 09 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 10 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 11 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,5 +163,12 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 02 - joyye
   - 🇷🇺 俄罗斯 (Russia) 03 - joyye
   - 🇷🇺 俄罗斯 (Russia) 04 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 05 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 06 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 07 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 08 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 09 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 10 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 11 - joyye
 rules:
 - MATCH,PROXIES
