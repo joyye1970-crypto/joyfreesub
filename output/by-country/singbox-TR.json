@@ -6,20 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇳🇴 NO 01 - joyye",
-        "🇳🇴 NO 02 - joyye",
-        "🇳🇴 NO 03 - joyye",
-        "🇳🇴 NO 04 - joyye"
+        "🇹🇷 土耳其 (Turkey) 01 - joyye",
+        "🇹🇷 土耳其 (Turkey) 02 - joyye",
+        "🇹🇷 土耳其 (Turkey) 03 - joyye",
+        "🇹🇷 土耳其 (Turkey) 04 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇳🇴 NO 01 - joyye",
-        "🇳🇴 NO 02 - joyye",
-        "🇳🇴 NO 03 - joyye",
-        "🇳🇴 NO 04 - joyye"
+        "🇹🇷 土耳其 (Turkey) 01 - joyye",
+        "🇹🇷 土耳其 (Turkey) 02 - joyye",
+        "🇹🇷 土耳其 (Turkey) 03 - joyye",
+        "🇹🇷 土耳其 (Turkey) 04 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
