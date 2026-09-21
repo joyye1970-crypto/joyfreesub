@@ -5,6 +5,52 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - joyye
+  type: vmess
+  server: 47.83.19.148
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - joyye
+  type: vmess
+  server: 47.86.107.119
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - joyye
+  type: vless
+  server: px2.5ibtc.cn
+  port: 443
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: px2.5ibtc.cn
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - joyye
   type: vless
   server: 195.58.144.56
   port: 11907
@@ -13,7 +59,39 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - joyye
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - joyye
+  type: ss
+  server: sth.free-outline.giize.com
+  port: 1081
+  cipher: chacha20-ietf-poly1305
+  password: wwj19enpp68px8t7
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - joyye
+  type: ss
+  server: sth.free-outline.giize.com
+  port: 1081
+  cipher: chacha20-ietf-poly1305
+  password: uez5t2b4575tgkoi
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - joyye
+  type: vless
+  server: 195.58.144.56
+  port: 11907
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195.58.144.56
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - joyye
+  type: vless
+  server: 195.58.144.56
+  port: 11907
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195.58.144.56
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - joyye
   type: vless
   server: 47.238.210.5
   port: 13779
@@ -24,30 +102,50 @@ proxies:
   reality-opts:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
   servername: tesla.com
-  client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - joyye
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - joyye
+  type: vless
+  server: 47.238.210.5
+  port: 13779
+  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
+  servername: tesla.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - joyye
   type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  server: 8.218.184.4
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: nycqg19zkwacpm1b.v.3dns.vip
   network: ws
   ws-opts:
-    path: /
+    path: /ws-vmess
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - joyye
-  type: ss
-  server: 103.136.150.119
-  port: 10081
-  cipher: aes-256-gcm
-  password: 72553320ae6bcc8f
+      Host: nycqg19zkwacpm1b.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - joyye
+  type: vless
+  server: 104.21.29.202
+  port: 443
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
   udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - joyye
+  tls: true
+  skip-cert-verify: true
+  servername: px2.5ibtc.cn
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - joyye
   type: vmess
   server: ejomsxptp19apygl.v.3dns.vip
   port: 443
@@ -63,7 +161,7 @@ proxies:
     path: /ws-vmess
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - joyye
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - joyye
   type: vless
   server: 195.58.144.56
   port: 11907
@@ -72,19 +170,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - joyye
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - joyye
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - joyye
   type: vless
   server: 195.58.144.56
   port: 11907
@@ -93,27 +179,16 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - joyye
-  type: vless
-  server: 195.58.144.56
-  port: 11907
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - joyye
+  type: ss
+  server: 103.136.150.119
+  port: 10081
+  cipher: aes-256-gcm
+  password: 72553320ae6bcc8f
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - joyye
-  type: vless
-  server: 195.58.144.56
-  port: 11907
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - joyye
+- name: 🇭🇰 中国香港 (Hong Kong) 17 - joyye
   type: vmess
-  server: 47.83.19.148
+  server: 47.242.79.198
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -121,13 +196,59 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: ejomsxptp19apygl.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - joyye
+      Host: ejomsxptp19apygl.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 18 - joyye
+  type: vmess
+  server: 47.76.137.85
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 19 - joyye
+  type: vless
+  server: 195.58.144.56
+  port: 11907
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195.58.144.56
+- name: 🇭🇰 中国香港 (Hong Kong) 20 - joyye
+  type: vless
+  server: 172.67.149.199
+  port: 443
+  uuid: 326227e2-f2d1-4f43-8715-9da854f5f4c0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: px2.5ibtc.cn
+  network: ws
+  ws-opts:
+    path: /326227e2-f2d1-4f43-8715-9da854f5f4c0
+    headers:
+      Host: px2.5ibtc.cn
+- name: 🇭🇰 中国香港 (Hong Kong) 21 - joyye
+  type: ss
+  server: sth.free-outline.giize.com
+  port: 1081
+  cipher: chacha20-ietf-poly1305
+  password: r6tptrwvddxap6al
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 22 - joyye
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -141,40 +262,8 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 156.245.232.239
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - joyye
-  type: vmess
-  server: 8.217.229.155
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - joyye
-  type: vmess
-  server: ex1ogt73nzpqkac2.v.3dns.vip
-  port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - joyye
+- name: 🇭🇰 中国香港 (Hong Kong) 23 - joyye
   type: vless
   server: 195.58.144.56
   port: 11907
@@ -203,6 +292,14 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 13 - joyye
   - 🇭🇰 中国香港 (Hong Kong) 14 - joyye
   - 🇭🇰 中国香港 (Hong Kong) 15 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 16 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 17 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 18 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 19 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 20 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 21 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 22 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 23 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -223,5 +320,13 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 13 - joyye
   - 🇭🇰 中国香港 (Hong Kong) 14 - joyye
   - 🇭🇰 中国香港 (Hong Kong) 15 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 16 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 17 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 18 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 19 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 20 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 21 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 22 - joyye
+  - 🇭🇰 中国香港 (Hong Kong) 23 - joyye
 rules:
 - MATCH,PROXIES

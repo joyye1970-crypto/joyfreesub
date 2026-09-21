@@ -5,27 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - joyye
-  type: ss
-  server: 158.173.221.214
-  port: 11001
-  cipher: chacha20-ietf-poly1305
-  password: c58d16e593d44f42
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 02 - joyye
-  type: vless
-  server: 91.193.58.141
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 03 - joyye
   type: vless
   server: 46.250.250.149
   port: 2053
@@ -36,17 +15,36 @@ proxies:
   reality-opts:
     public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 04 - joyye
+  client-fingerprint: firefox
+- name: 🇬🇧 英国 (United Kingdom) 02 - joyye
   type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇬🇧 英国 (United Kingdom) 03 - joyye
+  type: ss
+  server: 94.156.250.148
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 04 - joyye
+  type: ss
+  server: 149.102.149.207
+  port: 443
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
 - name: 🇬🇧 英国 (United Kingdom) 05 - joyye
   type: vmess
   server: 66.163.117.58
@@ -58,76 +56,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇬🇧 英国 (United Kingdom) 06 - joyye
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 07 - joyye
-  type: vless
-  server: 91.193.58.117
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 08 - joyye
-  type: vless
-  server: 57.128.177.198
-  port: 443
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp58.cc.cd
-  network: ws
-  ws-opts:
-    path: /Telegram🇨🇳+fp=chrome
-    headers:
-      Host: vp58.cc.cd
-- name: 🇬🇧 英国 (United Kingdom) 09 - joyye
-  type: vless
-  server: 45.130.125.207
-  port: 8443
-  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 10 - joyye
-  type: vless
-  server: 91.193.58.195
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 11 - joyye
-  type: ss
-  server: 51.38.71.51
-  port: 2083
-  cipher: 2022-blake3-aes-256-gcm
-  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 12 - joyye
   type: vless
   server: 139.59.189.127
   port: 443
@@ -141,21 +69,7 @@ proxies:
     path: /
     headers:
       Host: shy-fog-af06.alvlirm333.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 13 - joyye
-  type: vless
-  server: 104.21.12.63
-  port: 8443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 14 - joyye
+- name: 🇬🇧 英国 (United Kingdom) 07 - joyye
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -165,62 +79,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 15 - joyye
-  type: vmess
-  server: test-tun.armtech.ir
-  port: 443
-  uuid: c4e24fd0-2194-44f5-a058-69df3dc035a0
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 16 - joyye
-  type: ss
-  server: 149.102.149.207
-  port: 443
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 17 - joyye
-  type: vless
-  server: 91.193.58.93
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 18 - joyye
-  type: vless
-  server: 91.193.59.191
-  port: 2087
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vlso5.1d.mom
-  network: ws
-  ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
-    headers:
-      Host: vlso5.1d.mom
-- name: 🇬🇧 英国 (United Kingdom) 19 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 20 - joyye
+- name: 🇬🇧 英国 (United Kingdom) 08 - joyye
   type: vless
   server: 186.190.211.188
   port: 443
@@ -229,143 +88,31 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 186.190.211.188
-- name: 🇬🇧 英国 (United Kingdom) 21 - joyye
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+- name: 🇬🇧 英国 (United Kingdom) 09 - joyye
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 22 - joyye
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 10 - joyye
   type: ss
-  server: 149.102.149.207
-  port: 80
+  server: 149.102.132.184
+  port: 443
   cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
+  password: g5h5jleTRSyO3Rk4
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 23 - joyye
-  type: vless
-  server: 78.129.208.44
-  port: 421
-  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
+- name: 🇬🇧 英国 (United Kingdom) 11 - joyye
+  type: ss
+  server: 51.38.71.51
+  port: 2083
+  cipher: 2022-blake3-aes-256-gcm
+  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
-  servername: chistomat.dry.care
-  client-fingerprint: chrome
-- name: 🇬🇧 英国 (United Kingdom) 24 - joyye
-  type: vless
-  server: 91.193.58.117
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  ws-opts:
-    path: /Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 25 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 26 - joyye
-  type: vmess
-  server: test-tun.armtech.ir
-  port: 443
-  uuid: c4e24fd0-2194-44f5-a058-69df3dc035a0
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 27 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 28 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 29 - joyye
-  type: vless
-  server: www.speedtest.net
-  port: 443
-  uuid: 7fc7f295-b80e-4235-bb17-61e3ddc0744a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/dirxIBhljtrTSM76Q?ed=2560
-    headers:
-      Host: 4zgccbcb10pqyibnwmm4nvznj4.royaehman5.workers.dev
-- name: 🇬🇧 英国 (United Kingdom) 30 - joyye
-  type: vless
-  server: 78.129.208.44
-  port: 421
-  uuid: a9900333-444b-4a36-a2f0-0567946c47cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
-  servername: chistomat.dry.care
-  client-fingerprint: ios
-- name: 🇬🇧 英国 (United Kingdom) 31 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 32 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 33 - joyye
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 34 - joyye
+- name: 🇬🇧 英国 (United Kingdom) 12 - joyye
   type: vless
   server: 129.121.95.159
   port: 443
@@ -379,20 +126,75 @@ proxies:
     path: /connect
     headers:
       Host: 129.121.95.159
-- name: 🇬🇧 英国 (United Kingdom) 35 - joyye
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+- name: 🇬🇧 英国 (United Kingdom) 13 - joyye
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+- name: 🇬🇧 英国 (United Kingdom) 14 - joyye
+  type: ss
+  server: 51.77.225.200
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 15 - joyye
+  type: ss
+  server: 149.102.149.207
+  port: 80
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 16 - joyye
+  type: ss
+  server: 141.98.101.181
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 17 - joyye
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 18 - joyye
+  type: ss
+  server: 149.102.149.207
+  port: 80
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 19 - joyye
+  type: ss
+  server: 149.102.132.184
+  port: 80
+  cipher: aes-256-gcm
+  password: g5h5jleTRSyO3Rk4
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 20 - joyye
+  type: ss
+  server: 158.173.221.214
+  port: 11001
+  cipher: chacha20-ietf-poly1305
+  password: c58d16e593d44f42
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 21 - joyye
+  type: ss
+  server: 149.102.149.207
+  port: 443
+  cipher: aes-256-gcm
+  password: LXchLsIwtCeUAUgu
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -419,20 +221,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 19 - joyye
   - 🇬🇧 英国 (United Kingdom) 20 - joyye
   - 🇬🇧 英国 (United Kingdom) 21 - joyye
-  - 🇬🇧 英国 (United Kingdom) 22 - joyye
-  - 🇬🇧 英国 (United Kingdom) 23 - joyye
-  - 🇬🇧 英国 (United Kingdom) 24 - joyye
-  - 🇬🇧 英国 (United Kingdom) 25 - joyye
-  - 🇬🇧 英国 (United Kingdom) 26 - joyye
-  - 🇬🇧 英国 (United Kingdom) 27 - joyye
-  - 🇬🇧 英国 (United Kingdom) 28 - joyye
-  - 🇬🇧 英国 (United Kingdom) 29 - joyye
-  - 🇬🇧 英国 (United Kingdom) 30 - joyye
-  - 🇬🇧 英国 (United Kingdom) 31 - joyye
-  - 🇬🇧 英国 (United Kingdom) 32 - joyye
-  - 🇬🇧 英国 (United Kingdom) 33 - joyye
-  - 🇬🇧 英国 (United Kingdom) 34 - joyye
-  - 🇬🇧 英国 (United Kingdom) 35 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -459,19 +247,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 19 - joyye
   - 🇬🇧 英国 (United Kingdom) 20 - joyye
   - 🇬🇧 英国 (United Kingdom) 21 - joyye
-  - 🇬🇧 英国 (United Kingdom) 22 - joyye
-  - 🇬🇧 英国 (United Kingdom) 23 - joyye
-  - 🇬🇧 英国 (United Kingdom) 24 - joyye
-  - 🇬🇧 英国 (United Kingdom) 25 - joyye
-  - 🇬🇧 英国 (United Kingdom) 26 - joyye
-  - 🇬🇧 英国 (United Kingdom) 27 - joyye
-  - 🇬🇧 英国 (United Kingdom) 28 - joyye
-  - 🇬🇧 英国 (United Kingdom) 29 - joyye
-  - 🇬🇧 英国 (United Kingdom) 30 - joyye
-  - 🇬🇧 英国 (United Kingdom) 31 - joyye
-  - 🇬🇧 英国 (United Kingdom) 32 - joyye
-  - 🇬🇧 英国 (United Kingdom) 33 - joyye
-  - 🇬🇧 英国 (United Kingdom) 34 - joyye
-  - 🇬🇧 英国 (United Kingdom) 35 - joyye
 rules:
 - MATCH,PROXIES
