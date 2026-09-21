@@ -6,19 +6,47 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - joyye
   type: vless
-  server: 72.56.250.71
-  port: 443
-  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
+  server: 132.243.203.207
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: tr3.wba-pn.ru
+  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
+    path: '%2Flives%3Fed%3D2560'
     headers:
-      Host: 72.56.250.71
+      Host: cdn8848.776676.xyz
 - name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
+  type: vless
+  server: 46.8.200.91
+  port: 443
+  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.rumedia-cdn.com
+  network: ws
+  ws-opts:
+    path: /cdn/v3/live
+    headers:
+      Host: cf3.rumedia-cdn.com
+- name: 🇷🇺 俄罗斯 (Russia) 03 - joyye
+  type: vless
+  server: 31.58.76.68
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: '%2Fnew%2Fdh%3Fed%3D2560'
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
   type: vless
   server: 138.68.142.165
   port: 2053
@@ -39,6 +67,8 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - joyye
   - 🇷🇺 俄罗斯 (Russia) 02 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 03 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 04 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +76,7 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - joyye
   - 🇷🇺 俄罗斯 (Russia) 02 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 03 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 04 - joyye
 rules:
 - MATCH,PROXIES
