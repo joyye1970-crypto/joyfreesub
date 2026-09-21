@@ -6,49 +6,21 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - joyye
   type: vless
-  server: 89.110.66.154
+  server: 72.56.250.71
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: af2a0c18-b08c-471f-baa3-259ac2ce3a85
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: tr3.wba-pn.ru
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: 72.56.250.71
 - name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
   type: vless
-  server: 64.225.110.247
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 03 - joyye
-  type: vless
-  server: 164.92.137.46
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: '%2Fbt%2Fstreaming%2Fad%3Fed%3D2560'
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
-  type: vless
-  server: 193.181.216.117
+  server: 138.68.142.165
   port: 2053
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
@@ -57,35 +29,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 05 - joyye
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 06 - joyye
-  type: vless
-  server: 5.101.115.117
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /magnet/thread?ed=2560fp=chrome
+    path: /resource/channel
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -95,10 +39,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - joyye
   - 🇷🇺 俄罗斯 (Russia) 02 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 03 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 04 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 05 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 06 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -106,9 +46,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - joyye
   - 🇷🇺 俄罗斯 (Russia) 02 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 03 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 04 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 05 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 06 - joyye
 rules:
 - MATCH,PROXIES
