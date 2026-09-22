@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD 01 - joyye"
+        "🇲🇩 MD 01 - joyye",
+        "🇲🇩 MD 02 - joyye",
+        "🇲🇩 MD 03 - joyye",
+        "🇲🇩 MD 04 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD 01 - joyye"
+        "🇲🇩 MD 01 - joyye",
+        "🇲🇩 MD 02 - joyye",
+        "🇲🇩 MD 03 - joyye",
+        "🇲🇩 MD 04 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },

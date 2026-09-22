@@ -6,47 +6,19 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - joyye
   type: vless
-  server: k2.cloud--vpn.site
+  server: 212.104.128.206
   port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: c12.com
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 02 - joyye
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 03 - joyye
-  type: vless
-  server: 212.104.128.139
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 04 - joyye
   type: vless
   server: 212.104.128.68
   port: 443
@@ -60,9 +32,37 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 03 - joyye
+  type: vless
+  server: 212.104.128.217
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 04 - joyye
+  type: vless
+  server: 212.104.128.244
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 05 - joyye
   type: vless
-  server: 212.104.128.45
+  server: 212.104.128.244
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -76,7 +76,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 06 - joyye
   type: vless
-  server: 212.104.128.27
+  server: 31.76.80.230
+  port: 8443
+  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fin.luxes.network
+  network: ws
+  ws-opts:
+    path: /assets
+    headers:
+      Host: 31.76.80.230
+- name: 🇫🇮 FI 07 - joyye
+  type: vless
+  server: 212.104.128.139
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -88,20 +102,6 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 07 - joyye
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
 - name: 🇫🇮 FI 08 - joyye
   type: vless
   server: 212.104.128.152
@@ -118,7 +118,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 09 - joyye
   type: vless
-  server: 212.104.128.244
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -146,7 +146,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 11 - joyye
   type: vless
-  server: 212.104.128.27
+  server: 212.104.128.106
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -160,7 +160,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 12 - joyye
   type: vless
-  server: 212.104.128.244
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -174,19 +174,33 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 13 - joyye
   type: vless
-  server: 212.104.128.217
+  server: k2.cloud--vpn.site
   port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: xi.tbv.ccwu.cc
+      Host: c12.com
 - name: 🇫🇮 FI 14 - joyye
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 15 - joyye
   type: vless
   server: 212.104.128.106
   port: 443
@@ -200,23 +214,9 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 15 - joyye
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 16 - joyye
   type: vless
-  server: 212.104.128.0
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -230,7 +230,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 17 - joyye
   type: vless
-  server: 212.104.128.139
+  server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -244,21 +244,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 18 - joyye
   type: vless
-  server: 172.64.53.42
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 212.104.128.0
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: ?ed=2560
+    path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 19 - joyye
   type: vless
-  server: 212.104.128.206
+  server: 212.104.128.68
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -286,7 +286,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 21 - joyye
   type: vless
-  server: 212.104.128.106
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -300,7 +300,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 22 - joyye
   type: vless
-  server: 212.104.128.45
+  server: 212.104.128.0
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -314,18 +314,18 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 23 - joyye
   type: vless
-  server: 104.16.150.108
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 212.104.128.45
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /
     headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 24 - joyye
   type: vless
   server: 212.104.128.217
@@ -342,21 +342,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 25 - joyye
   type: vless
-  server: 31.76.80.230
-  port: 8443
-  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
+  server: 212.104.128.68
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fin.luxes.network
+  servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /assets
+    path: /
     headers:
-      Host: 31.76.80.230
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 26 - joyye
   type: vless
-  server: 212.104.128.27
+  server: 212.104.128.139
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -370,19 +370,21 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 27 - joyye
   type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  server: 172.64.53.42
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: random
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: ?ed=2560
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
 - name: 🇫🇮 FI 28 - joyye
   type: vless
-  server: 212.104.128.0
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -396,68 +398,18 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 29 - joyye
   type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: 31.76.80.230
+  port: 8443
+  uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
+  servername: fin.luxes.network
   network: ws
   ws-opts:
-    path: /
+    path: /assets
     headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 30 - joyye
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 31 - joyye
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 32 - joyye
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 33 - joyye
-  type: vless
-  server: 185.79.138.71
-  port: 448
-  uuid: 0b0915d7-6800-4580-a44b-77d84f105e6a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: CsDgNRcCwCkPIslfZpKTIK71KFpIFNsotbdzKcZVoH8
-  servername: www.samsung.com
-  client-fingerprint: chrome
+      Host: 31.76.80.230
 proxy-groups:
 - name: PROXIES
   type: select
@@ -492,10 +444,6 @@ proxy-groups:
   - 🇫🇮 FI 27 - joyye
   - 🇫🇮 FI 28 - joyye
   - 🇫🇮 FI 29 - joyye
-  - 🇫🇮 FI 30 - joyye
-  - 🇫🇮 FI 31 - joyye
-  - 🇫🇮 FI 32 - joyye
-  - 🇫🇮 FI 33 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -530,9 +478,5 @@ proxy-groups:
   - 🇫🇮 FI 27 - joyye
   - 🇫🇮 FI 28 - joyye
   - 🇫🇮 FI 29 - joyye
-  - 🇫🇮 FI 30 - joyye
-  - 🇫🇮 FI 31 - joyye
-  - 🇫🇮 FI 32 - joyye
-  - 🇫🇮 FI 33 - joyye
 rules:
 - MATCH,PROXIES
