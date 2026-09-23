@@ -30,17 +30,32 @@ proxies:
   client-fingerprint: chrome
 - name: 🇹🇭 TH 03 - joyye
   type: vless
-  server: 34.15.162.1
+  server: 122.10.119.252
   port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: safari
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
 - name: 🇹🇭 TH 04 - joyye
+  type: vless
+  server: 104.21.12.116
+  port: 8880
+  uuid: ad85a1ce-3519-4634-9ea1-66c60d3694ba
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: little-pond-8731.81-68e.workers.dev
+- name: 🇹🇭 TH 05 - joyye
   type: vless
   server: 34.15.176.240
   port: 443
@@ -52,31 +67,7 @@ proxies:
     public-key: Euq607wb-KZNjbuOMQ1h646C3dm_Q-ntd7yxZ52jj0U
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇹🇭 TH 05 - joyye
-  type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
 - name: 🇹🇭 TH 06 - joyye
-  type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇹🇭 TH 07 - joyye
   type: vless
   server: 43.133.110.81
   port: 443
@@ -90,6 +81,18 @@ proxies:
     path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇹🇭 TH 07 - joyye
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇹🇭 TH 08 - joyye
   type: vless
   server: 34.15.162.1
@@ -101,7 +104,7 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: edge
+  client-fingerprint: qq
 - name: 🇹🇭 TH 09 - joyye
   type: vless
   server: 34.15.162.1
@@ -113,19 +116,20 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇹🇭 TH 10 - joyye
   type: vless
-  server: 34.15.162.1
-  port: 443
-  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  server: 103.86.49.57
+  port: 80
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
-  servername: www.cloudflare.com
-  client-fingerprint: qq
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aIs.SpEeDtEsT.nEt
 - name: 🇹🇭 TH 11 - joyye
   type: vless
   server: 34.15.162.1
@@ -137,7 +141,31 @@ proxies:
   reality-opts:
     public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: safari
+- name: 🇹🇭 TH 12 - joyye
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: edge
+- name: 🇹🇭 TH 13 - joyye
+  type: vless
+  server: 34.15.162.1
+  port: 443
+  uuid: 2b1d0c2a-9c80-4b72-892e-93d0500b9210
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw
+  servername: www.cloudflare.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -154,6 +182,8 @@ proxy-groups:
   - 🇹🇭 TH 09 - joyye
   - 🇹🇭 TH 10 - joyye
   - 🇹🇭 TH 11 - joyye
+  - 🇹🇭 TH 12 - joyye
+  - 🇹🇭 TH 13 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -170,5 +200,7 @@ proxy-groups:
   - 🇹🇭 TH 09 - joyye
   - 🇹🇭 TH 10 - joyye
   - 🇹🇭 TH 11 - joyye
+  - 🇹🇭 TH 12 - joyye
+  - 🇹🇭 TH 13 - joyye
 rules:
 - MATCH,PROXIES
