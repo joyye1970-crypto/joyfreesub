@@ -6,22 +6,21 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - joyye
   type: vless
-  server: 217.19.122.65
-  port: 443
-  uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
+  server: 172.64.154.8
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: fbsv6.guardora.pro
   network: ws
   ws-opts:
-    path: /ws
+    path: /?ed=2560security=tls
     headers:
-      Host: fbsv6.guardora.pro
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
   type: vless
-  server: 172.64.229.2
-  port: 2052
+  server: 104.18.47.113
+  port: 2095
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -33,22 +32,8 @@ proxies:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇷🇺 俄罗斯 (Russia) 03 - joyye
   type: vless
-  server: 188.114.97.1
-  port: 2053
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bold-term-4edd.mbigspot.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
-  type: vless
-  server: 172.64.158.146
-  port: 8880
+  server: 104.18.34.14
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -58,7 +43,7 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇷🇺 俄罗斯 (Russia) 05 - joyye
+- name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
   type: vless
   server: 46.8.200.91
   port: 443
@@ -72,19 +57,19 @@ proxies:
     path: /cdn/v3/live
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 06 - joyye
+- name: 🇷🇺 俄罗斯 (Russia) 05 - joyye
   type: vless
-  server: 188.114.97.6
-  port: 8880
+  server: 172.64.32.103
+  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2560security=tls
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -95,7 +80,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - joyye
   - 🇷🇺 俄罗斯 (Russia) 04 - joyye
   - 🇷🇺 俄罗斯 (Russia) 05 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 06 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -106,6 +90,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 03 - joyye
   - 🇷🇺 俄罗斯 (Russia) 04 - joyye
   - 🇷🇺 俄罗斯 (Russia) 05 - joyye
-  - 🇷🇺 俄罗斯 (Russia) 06 - joyye
 rules:
 - MATCH,PROXIES

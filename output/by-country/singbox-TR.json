@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇪 SE 01 - joyye",
-        "🇸🇪 SE 02 - joyye"
+        "🇹🇷 土耳其 (Turkey) 01 - joyye",
+        "🇹🇷 土耳其 (Turkey) 02 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇪 SE 01 - joyye",
-        "🇸🇪 SE 02 - joyye"
+        "🇹🇷 土耳其 (Turkey) 01 - joyye",
+        "🇹🇷 土耳其 (Turkey) 02 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },

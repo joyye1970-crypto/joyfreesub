@@ -5,28 +5,29 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - joyye
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 02 - joyye
   type: vmess
-  server: or.521166.xyz
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
   alterId: 0
   cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 02 - joyye
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /or3
+    path: /tyxyws
     headers:
-      Host: ''
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 03 - joyye
   type: vmess
   server: 45.32.57.118
@@ -58,37 +59,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 06 - joyye
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 07 - joyye
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 08 - joyye
-  type: vmess
-  server: 64.176.51.214
-  port: 23462
-  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /a15206
-    headers:
-      Host: ''
-- name: 🇯🇵 日本 (Japan) 09 - joyye
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -98,13 +68,49 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 - joyye
-  type: ss
-  server: 84.247.155.196
+- name: 🇯🇵 日本 (Japan) 07 - joyye
+  type: vless
+  server: 162.159.254.3
   port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 08 - joyye
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 09 - joyye
+  type: vless
+  server: 3.112.67.101
+  port: 443
+  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: thus-k.netnode.cc.cd
+  network: ws
+  ws-opts:
+    path: /t.me/daily_free_vpn
+    headers:
+      Host: thus-k.netnode.cc.cd
+- name: 🇯🇵 日本 (Japan) 10 - joyye
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 11 - joyye
   type: vless
   server: 137.220.221.179
@@ -114,31 +120,35 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇯🇵 日本 (Japan) 12 - joyye
-  type: vmess
-  server: 64.176.51.214
-  port: 23462
-  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: false
+- name: 🇯🇵 日本 (Japan) 13 - joyye
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
   skip-cert-verify: true
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /a15206
+    path: /tyxyws
     headers:
-      Host: 64.176.51.214
-- name: 🇯🇵 日本 (Japan) 13 - joyye
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 14 - joyye
+  type: vless
+  server: 137.220.221.179
+  port: 443
+  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 14 - joyye
+- name: 🇯🇵 日本 (Japan) 15 - joyye
   type: vmess
   server: or.521166.xyz
   port: 2083
@@ -154,42 +164,14 @@ proxies:
     path: /or3
     headers:
       Host: ''
-- name: 🇯🇵 日本 (Japan) 15 - joyye
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
 - name: 🇯🇵 日本 (Japan) 16 - joyye
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 17 - joyye
-  type: vmess
-  server: 45.32.57.118
-  port: 4433
-  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 18 - joyye
-  type: vless
-  server: 137.220.221.179
+  type: ss
+  server: 84.247.155.196
   port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
   udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 19 - joyye
+- name: 🇯🇵 日本 (Japan) 17 - joyye
   type: vmess
   server: 45.32.57.118
   port: 4433
@@ -221,8 +203,6 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 15 - joyye
   - 🇯🇵 日本 (Japan) 16 - joyye
   - 🇯🇵 日本 (Japan) 17 - joyye
-  - 🇯🇵 日本 (Japan) 18 - joyye
-  - 🇯🇵 日本 (Japan) 19 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -245,7 +225,5 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 15 - joyye
   - 🇯🇵 日本 (Japan) 16 - joyye
   - 🇯🇵 日本 (Japan) 17 - joyye
-  - 🇯🇵 日本 (Japan) 18 - joyye
-  - 🇯🇵 日本 (Japan) 19 - joyye
 rules:
 - MATCH,PROXIES
