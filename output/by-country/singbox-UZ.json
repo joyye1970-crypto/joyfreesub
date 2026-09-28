@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - joyye"
+        "🇺🇿 UZ 01 - joyye",
+        "🇺🇿 UZ 02 - joyye",
+        "🇺🇿 UZ 03 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - joyye"
+        "🇺🇿 UZ 01 - joyye",
+        "🇺🇿 UZ 02 - joyye",
+        "🇺🇿 UZ 03 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },

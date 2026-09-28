@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇭🇺 HU 01 - joyye
+- name: 🇪🇬 EG 01 - joyye
   type: vless
-  server: 38.180.225.247
-  port: 2053
+  server: 38.54.59.70
+  port: 443
   uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
   udp: true
   tls: true
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇭🇺 HU 01 - joyye
+  - 🇪🇬 EG 01 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇭🇺 HU 01 - joyye
+  - 🇪🇬 EG 01 - joyye
 rules:
 - MATCH,PROXIES
