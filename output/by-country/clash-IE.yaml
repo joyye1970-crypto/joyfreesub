@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - joyye
   type: vless
-  server: 45.141.234.138
+  server: 188.114.97.6
   port: 443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
@@ -15,10 +15,38 @@ proxies:
   servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /fp=chrome
     headers:
       Host: edgetunnel-4uw.pages.dev
 - name: 🇮🇪 IE 02 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /?Telegram---mtmvpn---mtmvpn---mtmvpn---mtmvpn
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 03 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome?ed#?ed=512
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 04 - joyye
   type: vless
   server: 45.141.234.138
   port: 443
@@ -32,6 +60,20 @@ proxies:
     path: /
     headers:
       Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 05 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=512
+    headers:
+      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +81,9 @@ proxy-groups:
   - AUTO
   - 🇮🇪 IE 01 - joyye
   - 🇮🇪 IE 02 - joyye
+  - 🇮🇪 IE 03 - joyye
+  - 🇮🇪 IE 04 - joyye
+  - 🇮🇪 IE 05 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +91,8 @@ proxy-groups:
   proxies:
   - 🇮🇪 IE 01 - joyye
   - 🇮🇪 IE 02 - joyye
+  - 🇮🇪 IE 03 - joyye
+  - 🇮🇪 IE 04 - joyye
+  - 🇮🇪 IE 05 - joyye
 rules:
 - MATCH,PROXIES
