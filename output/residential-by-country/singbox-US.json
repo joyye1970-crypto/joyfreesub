@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 BE 01 - joyye",
-        "🇧🇪 BE 02 - joyye",
-        "🇧🇪 BE 03 - joyye"
+        "🇺🇸 美国 (United States) 01 (家宽) - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - joyye",
-        "🇧🇪 BE 02 - joyye",
-        "🇧🇪 BE 03 - joyye"
+        "🇺🇸 美国 (United States) 01 (家宽) - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
