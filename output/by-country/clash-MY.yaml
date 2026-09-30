@@ -5,16 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇲🇾 MY 01 - joyye
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇲🇾 MY 02 - joyye
   type: vless
   server: platform128.golnamakcert.top
   port: 80
@@ -27,26 +17,45 @@ proxies:
     path: /platform128
     headers:
       Host: platform128.golnamakcert.top
+- name: 🇲🇾 MY 02 - joyye
+  type: vless
+  server: platform128.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform128
+    headers:
+      Host: platform128.halalkhor.info
 - name: 🇲🇾 MY 03 - joyye
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: platform128.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform128
+    headers:
+      Host: platform128.halalkhor.info
 - name: 🇲🇾 MY 04 - joyye
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: platform128.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform128
+    headers:
+      Host: platform128.golnamakcert.top
 - name: 🇲🇾 MY 05 - joyye
   type: vless
   server: platform128.golnamakcert.top
@@ -60,6 +69,36 @@ proxies:
     path: /platform128
     headers:
       Host: platform128.halalkhor.info
+- name: 🇲🇾 MY 06 - joyye
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇾 MY 07 - joyye
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇲🇾 MY 08 - joyye
+  type: vmess
+  server: 47.250.135.244
+  port: 10000
+  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -70,6 +109,9 @@ proxy-groups:
   - 🇲🇾 MY 03 - joyye
   - 🇲🇾 MY 04 - joyye
   - 🇲🇾 MY 05 - joyye
+  - 🇲🇾 MY 06 - joyye
+  - 🇲🇾 MY 07 - joyye
+  - 🇲🇾 MY 08 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -80,5 +122,8 @@ proxy-groups:
   - 🇲🇾 MY 03 - joyye
   - 🇲🇾 MY 04 - joyye
   - 🇲🇾 MY 05 - joyye
+  - 🇲🇾 MY 06 - joyye
+  - 🇲🇾 MY 07 - joyye
+  - 🇲🇾 MY 08 - joyye
 rules:
 - MATCH,PROXIES
