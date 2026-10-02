@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 02 - joyye
   type: vless
   server: 194.61.31.126
@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 03 - joyye
   type: vless
   server: 194.61.31.126
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 04 - joyye
   type: vless
   server: 194.61.31.126
@@ -51,14 +51,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 05 - joyye
-  type: ss
-  server: 172.105.39.124
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -68,7 +61,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - joyye
   - 🇮🇳 印度 (India) 03 - joyye
   - 🇮🇳 印度 (India) 04 - joyye
-  - 🇮🇳 印度 (India) 05 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,6 +70,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - joyye
   - 🇮🇳 印度 (India) 03 - joyye
   - 🇮🇳 印度 (India) 04 - joyye
-  - 🇮🇳 印度 (India) 05 - joyye
 rules:
 - MATCH,PROXIES
