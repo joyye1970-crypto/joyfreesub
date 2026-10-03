@@ -6,20 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - joyye",
-        "🇱🇰 LK 02 - joyye",
-        "🇱🇰 LK 03 - joyye",
-        "🇱🇰 LK 04 - joyye"
+        "🇬🇪 GE 01 - joyye",
+        "🇬🇪 GE 02 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - joyye",
-        "🇱🇰 LK 02 - joyye",
-        "🇱🇰 LK 03 - joyye",
-        "🇱🇰 LK 04 - joyye"
+        "🇬🇪 GE 01 - joyye",
+        "🇬🇪 GE 02 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
