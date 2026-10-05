@@ -13,19 +13,12 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - joyye
   type: ss
-  server: 20.87.209.138
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: D3QZyKA9jtLektTN
-  udp: true
-- name: 🇿🇦 ZA 03 - joyye
-  type: ss
   server: 139.84.247.164
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: tfAcRikawhNoZAhu
   udp: true
-- name: 🇿🇦 ZA 04 - joyye
+- name: 🇿🇦 ZA 03 - joyye
   type: ss
   server: 102.37.156.224
   port: 443
@@ -40,7 +33,6 @@ proxy-groups:
   - 🇿🇦 ZA 01 - joyye
   - 🇿🇦 ZA 02 - joyye
   - 🇿🇦 ZA 03 - joyye
-  - 🇿🇦 ZA 04 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -49,6 +41,5 @@ proxy-groups:
   - 🇿🇦 ZA 01 - joyye
   - 🇿🇦 ZA 02 - joyye
   - 🇿🇦 ZA 03 - joyye
-  - 🇿🇦 ZA 04 - joyye
 rules:
 - MATCH,PROXIES

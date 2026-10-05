@@ -5,173 +5,104 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇳🇱 荷兰 (Netherlands) 01 - joyye
-  type: ss
-  server: 193.29.139.223
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  type: vless
+  server: 89.125.96.91
+  port: 2053
+  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wss.zazazuza.ru
+  network: ws
+  ws-opts:
+    path: /vpn-wss/fluxor/59011/
+    headers:
+      Host: wss.zazazuza.ru
 - name: 🇳🇱 荷兰 (Netherlands) 02 - joyye
   type: ss
-  server: 158.173.20.208
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 03 - joyye
-  type: ss
-  server: 82.38.31.9
+  server: 82.38.31.18
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 04 - joyye
-  type: ss
-  server: 82.38.31.201
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 05 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 03 - joyye
   type: ss
   server: 82.38.31.162
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 06 - joyye
-  type: ss
-  server: 82.38.31.61
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 07 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 04 - joyye
   type: ss
   server: 82.38.31.205
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 08 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 05 - joyye
   type: ss
-  server: 82.38.31.199
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 09 - joyye
-  type: ss
-  server: 82.38.31.198
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 10 - joyye
-  type: ss
-  server: 82.38.31.36
-  port: 8080
+  server: 82.38.31.174
+  port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 11 - joyye
-  type: ss
-  server: 82.38.31.39
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 12 - joyye
-  type: ss
-  server: 193.29.139.198
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 13 - joyye
-  type: ss
-  server: 82.38.31.7
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 14 - joyye
-  type: ss
-  server: 82.38.31.155
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 15 - joyye
-  type: ss
-  server: 193.29.139.225
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 16 - joyye
-  type: vless
-  server: 85.17.145.65
-  port: 12068
-  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mypanel.unixzone.us
-- name: 🇳🇱 荷兰 (Netherlands) 17 - joyye
-  type: ss
-  server: 193.29.139.151
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 18 - joyye
-  type: ss
-  server: 82.38.31.69
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 19 - joyye
-  type: ss
-  server: 193.29.139.234
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: 4a2rfixophdjffa8KVA4Aa
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 20 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 06 - joyye
   type: ss
   server: 82.38.31.186
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 21 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 07 - joyye
   type: ss
-  server: 82.38.31.164
+  server: 193.29.139.147
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 08 - joyye
+  type: ss
+  server: 82.38.31.149
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 22 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 09 - joyye
   type: ss
   server: 193.29.139.132
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 23 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 10 - joyye
   type: ss
   server: 82.38.31.218
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 24 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 11 - joyye
+  type: ss
+  server: 82.38.31.28
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 12 - joyye
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 6ead3f4c-023f-4322-b5c4-ac4e327d259d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pannn1.global.ssl.fastly.net
+- name: 🇳🇱 荷兰 (Netherlands) 13 - joyye
   type: vless
   server: 107.189.18.145
   port: 443
@@ -180,40 +111,140 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: restnet.duckdns.org
-- name: 🇳🇱 荷兰 (Netherlands) 25 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 14 - joyye
+  type: ss
+  server: 82.38.31.48
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 15 - joyye
+  type: vless
+  server: 162.35.242.252
+  port: 443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
+  servername: nl.aksay.pro
+  client-fingerprint: random
+- name: 🇳🇱 荷兰 (Netherlands) 16 - joyye
+  type: vless
+  server: 107.189.18.145
+  port: 443
+  uuid: 67a171fb-a31d-49f3-a9d6-98de350763e8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: restnet.duckdns.org
+- name: 🇳🇱 荷兰 (Netherlands) 17 - joyye
+  type: ss
+  server: 82.38.31.9
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 18 - joyye
+  type: vless
+  server: 104.21.53.160
+  port: 443
+  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
+- name: 🇳🇱 荷兰 (Netherlands) 19 - joyye
+  type: ss
+  server: 82.38.31.42
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 20 - joyye
   type: ss
   server: 82.38.31.216
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 26 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 21 - joyye
   type: ss
-  server: 82.38.31.203
+  server: 193.29.139.225
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 22 - joyye
+  type: ss
+  server: 82.38.31.198
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 23 - joyye
+  type: vmess
+  server: 45.90.106.24
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇳🇱 荷兰 (Netherlands) 24 - joyye
+  type: ss
+  server: 158.173.20.208
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 25 - joyye
+  type: vless
+  server: 162.35.242.252
+  port: 443
+  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
+  servername: nl.aksay.pro
+  client-fingerprint: chrome
+- name: 🇳🇱 荷兰 (Netherlands) 26 - joyye
+  type: ss
+  server: 82.38.31.155
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 27 - joyye
   type: ss
-  server: 82.38.31.204
+  server: 82.38.31.192
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 28 - joyye
   type: ss
-  server: 82.38.31.28
+  server: 82.38.31.176
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 29 - joyye
   type: ss
-  server: 82.38.31.26
+  server: 193.29.139.212
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+  password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 30 - joyye
   type: ss
@@ -224,135 +255,54 @@ proxies:
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 31 - joyye
   type: ss
-  server: 82.38.31.62
+  server: 82.38.31.10
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 32 - joyye
   type: ss
-  server: 82.38.31.17
+  server: 82.38.31.36
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 33 - joyye
   type: ss
-  server: 82.38.31.175
+  server: 82.38.31.49
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 34 - joyye
   type: ss
-  server: 82.38.31.174
+  server: 82.38.31.82
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 35 - joyye
   type: ss
-  server: 82.38.31.176
+  server: 82.38.31.164
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 36 - joyye
   type: ss
-  server: 108.181.126.122
-  port: 8388
+  server: 82.38.31.26
+  port: 8080
   cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
 - name: 🇳🇱 荷兰 (Netherlands) 37 - joyye
-  type: ss
-  server: 108.181.58.239
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 38 - joyye
-  type: ss
-  server: 82.38.31.48
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 39 - joyye
-  type: ss
-  server: 82.38.31.49
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 40 - joyye
-  type: ss
-  server: 193.29.139.147
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 41 - joyye
-  type: vmess
-  server: 159.223.13.109
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 42 - joyye
-  type: ss
-  server: 82.38.31.2
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 43 - joyye
-  type: ss
-  server: 82.38.31.175
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 44 - joyye
-  type: ss
-  server: 82.38.31.42
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 45 - joyye
-  type: ss
-  server: 82.38.31.149
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 46 - joyye
-  type: ss
-  server: 82.38.31.149
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 47 - joyye
-  type: ss
-  server: 82.38.31.214
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 48 - joyye
   type: ss
   server: 193.29.139.168
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 49 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 38 - joyye
   type: vless
   server: 163.172.214.188
   port: 80
@@ -365,78 +315,42 @@ proxies:
     path: /vless/
     headers:
       Host: SC-TheNetherlands1.09vpn.com
-- name: 🇳🇱 荷兰 (Netherlands) 50 - joyye
-  type: vmess
-  server: 45.90.106.24
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 51 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 39 - joyye
   type: ss
-  server: 82.38.31.156
+  server: 82.38.31.39
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 52 - joyye
-  type: vless
-  server: 89.125.96.75
-  port: 2053
-  uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wss.zazazuza.ru
-  network: ws
-  ws-opts:
-    path: /vpn-wss/fluxor/59011/
-    headers:
-      Host: wss.zazazuza.ru
-- name: 🇳🇱 荷兰 (Netherlands) 53 - joyye
-  type: vmess
-  server: 159.223.13.109
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 54 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 40 - joyye
   type: ss
-  server: 193.29.139.204
+  server: 82.38.31.69
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 55 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 41 - joyye
   type: ss
-  server: 82.38.31.35
+  server: 82.38.31.149
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 56 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 42 - joyye
   type: ss
-  server: 193.29.139.212
+  server: 82.38.31.208
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 57 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 43 - joyye
   type: ss
-  server: 158.173.20.208
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  server: 108.181.58.239
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 58 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 44 - joyye
   type: vless
   server: 107.189.18.145
   port: 443
@@ -445,58 +359,99 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: restnet.duckdns.org
-- name: 🇳🇱 荷兰 (Netherlands) 59 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 45 - joyye
   type: ss
-  server: 82.38.31.207
+  server: 82.38.31.175
   port: 8080
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 60 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 46 - joyye
+  type: ss
+  server: 193.29.139.202
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 47 - joyye
   type: ss
   server: 82.38.31.34
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 61 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 48 - joyye
   type: ss
-  server: 193.29.139.179
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 62 - joyye
-  type: ss
-  server: 82.38.31.66
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 63 - joyye
-  type: ss
-  server: 82.38.31.181
+  server: 82.38.31.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 64 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 49 - joyye
   type: ss
-  server: 82.38.31.174
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 65 - joyye
-  type: ss
-  server: 82.38.31.191
+  server: 82.38.31.211
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 66 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 50 - joyye
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 51 - joyye
+  type: ss
+  server: 193.29.139.234
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: 4a2rfixophdjffa8KVA4Aa
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 52 - joyye
   type: vless
-  server: 89.125.96.89
+  server: 85.17.145.65
+  port: 12068
+  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mypanel.unixzone.us
+- name: 🇳🇱 荷兰 (Netherlands) 53 - joyye
+  type: ss
+  server: 108.181.126.122
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: CJmTCCx7Ltud
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 54 - joyye
+  type: ss
+  server: 193.29.139.151
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 55 - joyye
+  type: ss
+  server: 82.38.31.193
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 56 - joyye
+  type: ss
+  server: 193.29.139.198
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 57 - joyye
+  type: vless
+  server: 89.125.96.92
   port: 2053
   uuid: 6c713691-3ca2-0008-ad25-113d1bed6b03
   udp: true
@@ -508,72 +463,30 @@ proxies:
     path: /vpn-wss/fluxor/59011/
     headers:
       Host: wss.zazazuza.ru
-- name: 🇳🇱 荷兰 (Netherlands) 67 - joyye
-  type: vmess
-  server: 45.90.106.24
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 68 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 58 - joyye
   type: ss
   server: 193.29.139.197
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 69 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 59 - joyye
   type: ss
-  server: 193.29.139.202
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 70 - joyye
-  type: ss
-  server: 82.38.31.179
+  server: 82.38.31.201
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 71 - joyye
-  type: ss
-  server: 82.38.31.193
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 72 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 60 - joyye
   type: vless
-  server: 162.35.242.252
+  server: 107.189.18.145
   port: 443
-  uuid: e3e9805a-6c8b-4edd-8ee8-621df79806eb
+  uuid: 67a171fb-a31d-49f3-a9d6-98de350763e8
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: ClG6fvriBTK8donGsTlKusJ0dwRCgVDDTAGzAtZzJDY
-  servername: nl.aksay.pro
-  client-fingerprint: random
-- name: 🇳🇱 荷兰 (Netherlands) 73 - joyye
-  type: ss
-  server: 108.181.58.239
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: CJmTCCx7Ltud
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 74 - joyye
-  type: ss
-  server: 193.29.139.235
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 75 - joyye
+  servername: restnet.duckdns.org
+- name: 🇳🇱 荷兰 (Netherlands) 61 - joyye
   type: vmess
   server: 45.90.106.24
   port: 1234
@@ -584,33 +497,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇳🇱 荷兰 (Netherlands) 76 - joyye
-  type: ss
-  server: 82.38.31.82
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 77 - joyye
-  type: vless
-  server: 194.93.61.20
-  port: 443
-  uuid: 65616081-1772-49d7-a793-42bc13d22f69
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: gS0qvWKumWcOVoAgf8SHt6Sm3tqpBw07c5sA_Clb1hg
-  servername: nl-1-2.imnotgay.party
-  client-fingerprint: firefox
-- name: 🇳🇱 荷兰 (Netherlands) 78 - joyye
-  type: ss
-  server: 82.38.31.211
-  port: 8080
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 79 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 62 - joyye
   type: vmess
   server: 151.243.173.119
   port: 33736
@@ -625,57 +512,90 @@ proxies:
     path: /vmess-ws
     headers:
       Host: ''
-- name: 🇳🇱 荷兰 (Netherlands) 80 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 63 - joyye
   type: ss
-  server: 82.38.31.18
+  server: 193.29.139.179
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 81 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 64 - joyye
   type: vless
-  server: 107.189.18.145
+  server: 172.67.155.222
   port: 443
-  uuid: 67a171fb-a31d-49f3-a9d6-98de350763e8
+  uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: restnet.duckdns.org
-- name: 🇳🇱 荷兰 (Netherlands) 82 - joyye
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 8453bdb7-dd58-419d-b002-9456dd2e73d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
+  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /sync
     headers:
-      Host: pan2e.global.ssl.fastly.net
-- name: 🇳🇱 荷兰 (Netherlands) 83 - joyye
+      Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+- name: 🇳🇱 荷兰 (Netherlands) 65 - joyye
   type: ss
-  server: 82.38.31.164
+  server: 82.38.31.66
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 84 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 66 - joyye
   type: ss
-  server: 82.38.31.47
+  server: 82.38.31.174
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 🇳🇱 荷兰 (Netherlands) 85 - joyye
+- name: 🇳🇱 荷兰 (Netherlands) 67 - joyye
   type: ss
-  server: 82.38.31.192
+  server: 82.38.31.175
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 68 - joyye
+  type: ss
+  server: 193.29.139.188
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 69 - joyye
+  type: ss
+  server: 82.38.31.61
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 70 - joyye
+  type: ss
+  server: 82.38.31.199
   port: 8080
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 71 - joyye
+  type: ss
+  server: 82.38.31.62
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 🇳🇱 荷兰 (Netherlands) 72 - joyye
+  type: vless
+  server: 104.21.70.223
+  port: 443
+  uuid: 527451fe-ee1f-4e6f-94ca-808f055f7c9b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
+  network: ws
+  ws-opts:
+    path: /vl/ERYN0G44hia16zhR
+    headers:
+      Host: 05a5f9v5a6cm563ieoye7j-8tnpd.hsysyegegrygvvvdujhh.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -753,19 +673,6 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 70 - joyye
   - 🇳🇱 荷兰 (Netherlands) 71 - joyye
   - 🇳🇱 荷兰 (Netherlands) 72 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 73 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 74 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 75 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 76 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 77 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 78 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 79 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 80 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 81 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 82 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 83 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 84 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 85 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -843,18 +750,5 @@ proxy-groups:
   - 🇳🇱 荷兰 (Netherlands) 70 - joyye
   - 🇳🇱 荷兰 (Netherlands) 71 - joyye
   - 🇳🇱 荷兰 (Netherlands) 72 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 73 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 74 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 75 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 76 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 77 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 78 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 79 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 80 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 81 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 82 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 83 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 84 - joyye
-  - 🇳🇱 荷兰 (Netherlands) 85 - joyye
 rules:
 - MATCH,PROXIES
