@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - joyye"
+        "🇧🇷 BR 01 - joyye",
+        "🇧🇷 BR 02 - joyye",
+        "🇧🇷 BR 03 - joyye",
+        "🇧🇷 BR 04 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - joyye"
+        "🇧🇷 BR 01 - joyye",
+        "🇧🇷 BR 02 - joyye",
+        "🇧🇷 BR 03 - joyye",
+        "🇧🇷 BR 04 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
