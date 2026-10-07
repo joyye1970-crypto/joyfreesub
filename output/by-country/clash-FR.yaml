@@ -5,46 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - joyye
-  type: vless
-  server: 104.21.72.47
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
-    headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
+  servername: ''
 - name: 🇫🇷 法国 (France) 02 - joyye
-  type: vless
-  server: 54.37.136.194
-  port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 03 - joyye
-  type: vless
-  server: 172.67.185.98
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fr.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 04 - joyye
   type: vless
   server: 149.50.105.60
   port: 443
@@ -58,6 +29,27 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
+- name: 🇫🇷 法国 (France) 03 - joyye
+  type: vless
+  server: 104.21.84.30
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fr.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
+- name: 🇫🇷 法国 (France) 04 - joyye
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+  udp: true
 - name: 🇫🇷 法国 (France) 05 - joyye
   type: vless
   server: 54.37.136.194
@@ -83,33 +75,19 @@ proxies:
   servername: ''
 - name: 🇫🇷 法国 (France) 07 - joyye
   type: vless
-  server: 172.67.193.182
+  server: 149.50.105.60
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
+    path: /vws/
     headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
+      Host: bab-6.site
 - name: 🇫🇷 法国 (France) 08 - joyye
-  type: vless
-  server: 172.67.185.98
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fr.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 09 - joyye
   type: vless
   server: 149.50.105.60
   port: 443
@@ -123,21 +101,7 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 10 - joyye
-  type: vless
-  server: 104.19.164.155
-  port: 2083
-  uuid: 532a9115-aee7-4d39-9638-1e5146de075b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: muddy-math-c1fc.tmpnriqueau89.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: muddy-math-c1fc.tmpnriqueau89.workers.dev
-- name: 🇫🇷 法国 (France) 11 - joyye
+- name: 🇫🇷 法国 (France) 09 - joyye
   type: vless
   server: 81.95.4.189
   port: 443
@@ -151,30 +115,37 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 12 - joyye
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 13 - joyye
+- name: 🇫🇷 法国 (France) 10 - joyye
   type: vless
-  server: 172.67.175.23
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  server: 104.21.60.29
+  port: 8443
+  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
+  servername: www.large-files.info
   network: ws
   ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
+    path: /var/www/html/video/preview/download/i8o0la
     headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
-- name: 🇫🇷 法国 (France) 14 - joyye
+      Host: www.large-files.info
+- name: 🇫🇷 法国 (France) 11 - joyye
   type: vless
-  server: 104.21.84.30
+  server: 85.192.60.46
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 12 - joyye
+  type: vless
+  server: 8.47.69.0
   port: 2053
   uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
   udp: true
@@ -186,9 +157,30 @@ proxies:
     path: /api/voip/updates/static/fr2035
     headers:
       Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 15 - joyye
+- name: 🇫🇷 法国 (France) 13 - joyye
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+  udp: true
+- name: 🇫🇷 法国 (France) 14 - joyye
   type: vless
   server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 15 - joyye
+  type: vless
+  server: 81.95.4.189
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -202,43 +194,44 @@ proxies:
       Host: bab-6.site
 - name: 🇫🇷 法国 (France) 16 - joyye
   type: vless
-  server: 172.67.152.162
-  port: 443
-  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: app-q0zc4t.user-4gfyh5.workers.dev
-  network: ws
-  ws-opts:
-    path: /cmh
-    headers:
-      Host: app-q0zc4t.user-4gfyh5.workers.dev
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 17 - joyye
   type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 5d4f5139-6965-42ed-8dba-fe3ef9fed7c1
+  server: 172.67.190.248
+  port: 8443
+  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 022XW1dMCzG0C6165Pcla6.tOMBORn69.WOrkErS.dev
+  servername: www.large-files.info
   network: ws
   ws-opts:
-    path: /vl/9QqHUXZVAXGwloTMo5uOQLnnjSncQ?ed=2560
+    path: /var/www/html/video/preview/download/i8o0la
     headers:
-      Host: 022xw1dmczg0c6165pcla6.tomborn69.workers.dev
+      Host: www.large-files.info
 - name: 🇫🇷 法国 (France) 18 - joyye
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 104.21.84.30
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: fr.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
 - name: 🇫🇷 法国 (France) 19 - joyye
   type: vless
   server: 149.202.58.99
@@ -255,7 +248,7 @@ proxies:
       Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 20 - joyye
   type: vless
-  server: 81.95.4.189
+  server: 149.202.58.99
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -266,36 +259,46 @@ proxies:
   ws-opts:
     path: /vws/
     headers:
-      Host: bab-6.site
+      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 21 - joyye
   type: vless
-  server: 81.95.4.189
+  server: 23.227.39.171
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: c379b284.vs-494.pages.dev
   network: ws
   ws-opts:
-    path: /vws/
+    path: /?ed=2560
     headers:
-      Host: bab-6.site
+      Host: c379b284.vs-494.pages.dev
 - name: 🇫🇷 法国 (France) 22 - joyye
   type: vless
-  server: 104.20.17.127
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: trex-panel-nubj0s.samifakor.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/TrexBridge/ef859652a80e
-    headers:
-      Host: trex-panel-nubj0s.samifakor.workers.dev
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 23 - joyye
+  type: vless
+  server: 54.37.136.194
+  port: 2053
+  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 24 - joyye
   type: vless
   server: 51.77.217.70
   port: 2053
@@ -307,51 +310,9 @@ proxies:
     public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 24 - joyye
-  type: vless
-  server: 85.192.60.46
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
 - name: 🇫🇷 法国 (France) 25 - joyye
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 26 - joyye
-  type: vless
-  server: 149.50.105.60
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 27 - joyye
   type: vmess
-  server: 162.19.204.71
+  server: 141.95.65.9
   port: 1234
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   alterId: 0
@@ -360,62 +321,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇫🇷 法国 (France) 28 - joyye
-  type: vless
-  server: 8.47.69.0
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fr.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 29 - joyye
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 30 - joyye
-  type: vless
-  server: 104.21.84.30
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fr.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 31 - joyye
-  type: vless
-  server: 104.21.88.201
-  port: 443
-  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: app-q0zc4t.user-4gfyh5.workers.dev
-  network: ws
-  ws-opts:
-    path: /cmh
-    headers:
-      Host: app-q0zc4t.user-4gfyh5.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -446,12 +351,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 23 - joyye
   - 🇫🇷 法国 (France) 24 - joyye
   - 🇫🇷 法国 (France) 25 - joyye
-  - 🇫🇷 法国 (France) 26 - joyye
-  - 🇫🇷 法国 (France) 27 - joyye
-  - 🇫🇷 法国 (France) 28 - joyye
-  - 🇫🇷 法国 (France) 29 - joyye
-  - 🇫🇷 法国 (France) 30 - joyye
-  - 🇫🇷 法国 (France) 31 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -482,11 +381,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 23 - joyye
   - 🇫🇷 法国 (France) 24 - joyye
   - 🇫🇷 法国 (France) 25 - joyye
-  - 🇫🇷 法国 (France) 26 - joyye
-  - 🇫🇷 法国 (France) 27 - joyye
-  - 🇫🇷 法国 (France) 28 - joyye
-  - 🇫🇷 法国 (France) 29 - joyye
-  - 🇫🇷 法国 (France) 30 - joyye
-  - 🇫🇷 法国 (France) 31 - joyye
 rules:
 - MATCH,PROXIES
