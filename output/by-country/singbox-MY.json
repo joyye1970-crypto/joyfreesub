@@ -6,20 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - joyye",
-        "🇹🇭 TH 02 - joyye",
-        "🇹🇭 TH 03 - joyye",
-        "🇹🇭 TH 04 - joyye"
+        "🇲🇾 MY 01 - joyye",
+        "🇲🇾 MY 02 - joyye",
+        "🇲🇾 MY 03 - joyye",
+        "🇲🇾 MY 04 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - joyye",
-        "🇹🇭 TH 02 - joyye",
-        "🇹🇭 TH 03 - joyye",
-        "🇹🇭 TH 04 - joyye"
+        "🇲🇾 MY 01 - joyye",
+        "🇲🇾 MY 02 - joyye",
+        "🇲🇾 MY 03 - joyye",
+        "🇲🇾 MY 04 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
