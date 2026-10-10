@@ -6,23 +6,40 @@ log-level: info
 proxies:
 - name: 🇩🇪 德国 (Germany) 01 - joyye
   type: vless
-  server: 141.98.7.193
-  port: 2087
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
+  server: 91.107.180.141
+  port: 443
+  uuid: a95c18d0-1b39-4bc7-8521-b62b5ab3f3f7
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 141.98.7.193
+  servername: marz.zovip2.ir
+  network: ws
+  ws-opts:
+    path: /gropcdn
+    headers:
+      Host: marz.zovip2.ir
 - name: 🇩🇪 德国 (Germany) 02 - joyye
-  type: vless
-  server: 141.98.7.193
-  port: 2087
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
+  type: ss
+  server: 57.129.113.16
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: NcAXc0UZI6yQJE1p8QmOv8
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 141.98.7.193
 - name: 🇩🇪 德国 (Germany) 03 - joyye
+  type: ss
+  server: 2.58.81.221
+  port: 80
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 04 - joyye
+  type: ss
+  server: 8.209.74.72
+  port: 20001
+  cipher: chacha20-ietf-poly1305
+  password: PWpjPo3tqhPN4yRZ
+  udp: true
+- name: 🇩🇪 德国 (Germany) 05 - joyye
   type: vless
   server: 91.107.247.173
   port: 2083
@@ -36,78 +53,25 @@ proxies:
     path: /
     headers:
       Host: 91.107.247.173
-- name: 🇩🇪 德国 (Germany) 04 - joyye
-  type: ss
-  server: 51.195.126.38
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 2YdE4lFOid5a
-  udp: true
-- name: 🇩🇪 德国 (Germany) 05 - joyye
-  type: ss
-  server: 2.58.81.221
-  port: 80
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
 - name: 🇩🇪 德国 (Germany) 06 - joyye
-  type: ss
-  server: 213.202.208.199
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
+  type: vless
+  server: 141.98.7.193
+  port: 2083
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 141.98.7.193
 - name: 🇩🇪 德国 (Germany) 07 - joyye
-  type: ss
-  server: 213.202.208.199
-  port: 7001
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
+  type: vless
+  server: 141.98.7.193
+  port: 2083
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 141.98.7.193
 - name: 🇩🇪 德国 (Germany) 08 - joyye
-  type: vless
-  server: 141.98.7.193
-  port: 2053
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 141.98.7.193
-- name: 🇩🇪 德国 (Germany) 09 - joyye
-  type: vless
-  server: 141.98.7.193
-  port: 2053
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 141.98.7.193
-- name: 🇩🇪 德国 (Germany) 10 - joyye
-  type: ss
-  server: 185.226.172.8
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇩🇪 德国 (Germany) 11 - joyye
-  type: vless
-  server: 141.98.7.193
-  port: 2083
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 141.98.7.193
-- name: 🇩🇪 德国 (Germany) 12 - joyye
-  type: vless
-  server: 141.98.7.193
-  port: 2083
-  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 141.98.7.193
-- name: 🇩🇪 德国 (Germany) 13 - joyye
   type: vless
   server: 141.98.7.193
   port: 8443
@@ -121,35 +85,53 @@ proxies:
     path: /ws-cdn1-vless
     headers:
       Host: de.fastmirror-labs.xyz
-- name: 🇩🇪 德国 (Germany) 14 - joyye
-  type: ss
-  server: 209.46.102.22
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: 1hhrqrokj3ag
-  udp: true
-- name: 🇩🇪 德国 (Germany) 15 - joyye
+- name: 🇩🇪 德国 (Germany) 09 - joyye
   type: vless
-  server: 91.107.180.141
-  port: 443
-  uuid: a95c18d0-1b39-4bc7-8521-b62b5ab3f3f7
+  server: 141.98.7.193
+  port: 8443
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: marz.zovip2.ir
+  servername: 141.98.7.193
   network: ws
   ws-opts:
-    path: /gropcdn
+    path: /ws-cdn1-vless
     headers:
-      Host: marz.zovip2.ir
-- name: 🇩🇪 德国 (Germany) 16 - joyye
+      Host: de.fastmirror-labs.xyz
+- name: 🇩🇪 德国 (Germany) 10 - joyye
+  type: vless
+  server: 141.98.7.193
+  port: 2087
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 141.98.7.193
+- name: 🇩🇪 德国 (Germany) 11 - joyye
+  type: vless
+  server: 141.98.7.193
+  port: 2053
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 141.98.7.193
+- name: 🇩🇪 德国 (Germany) 12 - joyye
   type: ss
-  server: 57.129.113.16
+  server: 51.195.126.38
   port: 8388
   cipher: chacha20-ietf-poly1305
-  password: NcAXc0UZI6yQJE1p8QmOv8
+  password: 2YdE4lFOid5a
   udp: true
-- name: 🇩🇪 德国 (Germany) 17 - joyye
+- name: 🇩🇪 德国 (Germany) 13 - joyye
+  type: ss
+  server: 2.58.81.221
+  port: 443
+  cipher: aes-256-gcm
+  password: kKEd0rBrd56Furjz
+  udp: true
+- name: 🇩🇪 德国 (Germany) 14 - joyye
   type: vless
   server: 157.230.101.36
   port: 443
@@ -163,46 +145,89 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🇩🇪 德国 (Germany) 18 - joyye
-  type: ss
-  server: 2.58.81.221
-  port: 443
-  cipher: aes-256-gcm
-  password: kKEd0rBrd56Furjz
-  udp: true
-- name: 🇩🇪 德国 (Germany) 19 - joyye
+- name: 🇩🇪 德国 (Germany) 15 - joyye
   type: vless
   server: 141.98.7.193
-  port: 2083
+  port: 2053
   uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   udp: true
   tls: true
   skip-cert-verify: true
   servername: 141.98.7.193
-- name: 🇩🇪 德国 (Germany) 20 - joyye
+- name: 🇩🇪 德国 (Germany) 16 - joyye
   type: vless
-  server: 188.114.97.1
+  server: 141.98.7.193
   port: 2053
-  uuid: 0b3e7958-e5c4-498f-ab21-b49686f95d2d
+  uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bold-term-4edd.mbigspot.workers.dev
+  servername: 141.98.7.193
+- name: 🇩🇪 德国 (Germany) 17 - joyye
+  type: vless
+  server: 57.129.41.216
+  port: 80
+  uuid: 7d74eae4-8a06-4306-a923-ad686f30bf26
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless/
     headers:
-      Host: bold-term-4edd.mbigspot.workers.dev
+      Host: OV-Germany1.09vpn.com
+- name: 🇩🇪 德国 (Germany) 18 - joyye
+  type: vless
+  server: 31.77.126.2
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇩🇪 德国 (Germany) 19 - joyye
+  type: vless
+  server: 94.143.231.146
+  port: 443
+  uuid: 6e05822a-e9da-4135-a9db-71aa07a944af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sub.merky.top
+  network: ws
+  ws-opts:
+    path: /merky-connect/de6/
+    headers:
+      Host: sub.merky.top
+- name: 🇩🇪 德国 (Germany) 20 - joyye
+  type: ss
+  server: 209.46.102.22
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: 1hhrqrokj3ag
+  udp: true
 - name: 🇩🇪 德国 (Germany) 21 - joyye
+  type: ss
+  server: 185.226.172.8
+  port: 8008
+  cipher: aes-256-gcm
+  password: XKFKl2rULjIp74
+  udp: true
+- name: 🇩🇪 德国 (Germany) 22 - joyye
   type: vless
   server: 141.98.7.193
-  port: 2053
+  port: 2087
   uuid: e9e60f73-1618-491c-a85b-477bdc959ae6
   udp: true
   tls: true
   skip-cert-verify: true
   servername: 141.98.7.193
-- name: 🇩🇪 德国 (Germany) 22 - joyye
+- name: 🇩🇪 德国 (Germany) 23 - joyye
   type: vless
   server: 31.76.11.83
   port: 22849
@@ -237,6 +262,7 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 20 - joyye
   - 🇩🇪 德国 (Germany) 21 - joyye
   - 🇩🇪 德国 (Germany) 22 - joyye
+  - 🇩🇪 德国 (Germany) 23 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -264,5 +290,6 @@ proxy-groups:
   - 🇩🇪 德国 (Germany) 20 - joyye
   - 🇩🇪 德国 (Germany) 21 - joyye
   - 🇩🇪 德国 (Germany) 22 - joyye
+  - 🇩🇪 德国 (Germany) 23 - joyye
 rules:
 - MATCH,PROXIES
