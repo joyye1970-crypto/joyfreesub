@@ -1,0 +1,27 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇮🇷 IR 01 - joyye
+  type: ss
+  server: 94.184.42.18
+  port: 8880
+  cipher: chacha20-ietf-poly1305
+  password: AWVyUgWWLc4G47GNo_bx2w
+  udp: true
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇮🇷 IR 01 - joyye
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇮🇷 IR 01 - joyye
+rules:
+- MATCH,PROXIES
