@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇲🇩 MD 01 - joyye
   type: vless
-  server: 87.228.71.196
+  server: 87.228.71.197
   port: 443
   uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
   udp: true
@@ -20,7 +20,7 @@ proxies:
       Host: ap2.directly.chat
 - name: 🇲🇩 MD 02 - joyye
   type: vless
-  server: 185.147.27.130
+  server: 185.147.27.68
   port: 443
   uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: ap2.directly.chat
 - name: 🇲🇩 MD 03 - joyye
   type: vless
-  server: 87.228.71.195
+  server: 185.147.27.216
   port: 443
   uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: ap2.directly.chat
 - name: 🇲🇩 MD 04 - joyye
   type: vless
-  server: 185.147.27.217
+  server: 185.147.27.105
   port: 443
   uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
   udp: true
@@ -62,7 +62,63 @@ proxies:
       Host: ap2.directly.chat
 - name: 🇲🇩 MD 05 - joyye
   type: vless
-  server: 87.228.71.197
+  server: 185.147.27.128
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 06 - joyye
+  type: vless
+  server: 185.147.27.116
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 07 - joyye
+  type: vless
+  server: 87.228.71.196
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 08 - joyye
+  type: vless
+  server: 87.228.71.198
+  port: 443
+  uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ap2.directly.chat
+  network: ws
+  ws-opts:
+    path: /md/1
+    headers:
+      Host: ap2.directly.chat
+- name: 🇲🇩 MD 09 - joyye
+  type: vless
+  server: 185.147.27.196
   port: 443
   uuid: 2f9107cb-9af0-4c94-a89d-50437218e5fa
   udp: true
@@ -84,6 +140,10 @@ proxy-groups:
   - 🇲🇩 MD 03 - joyye
   - 🇲🇩 MD 04 - joyye
   - 🇲🇩 MD 05 - joyye
+  - 🇲🇩 MD 06 - joyye
+  - 🇲🇩 MD 07 - joyye
+  - 🇲🇩 MD 08 - joyye
+  - 🇲🇩 MD 09 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -94,5 +154,9 @@ proxy-groups:
   - 🇲🇩 MD 03 - joyye
   - 🇲🇩 MD 04 - joyye
   - 🇲🇩 MD 05 - joyye
+  - 🇲🇩 MD 06 - joyye
+  - 🇲🇩 MD 07 - joyye
+  - 🇲🇩 MD 08 - joyye
+  - 🇲🇩 MD 09 - joyye
 rules:
 - MATCH,PROXIES
