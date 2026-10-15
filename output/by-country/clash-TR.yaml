@@ -15,7 +15,7 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 02 - joyye
@@ -29,8 +29,20 @@ proxies:
   reality-opts:
     public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇹🇷 土耳其 (Turkey) 03 - joyye
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇹🇷 土耳其 (Turkey) 04 - joyye
   type: vless
   server: 155.103.71.142
   port: 443
@@ -41,10 +53,22 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chromefp=chrome
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇹🇷 土耳其 (Turkey) 04 - joyye
+- name: 🇹🇷 土耳其 (Turkey) 05 - joyye
+  type: vless
+  server: 151.241.226.201
+  port: 2053
+  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇹🇷 土耳其 (Turkey) 06 - joyye
   type: vless
   server: test.keoplentuio.xyz
   port: 2053
@@ -61,6 +85,8 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - joyye
   - 🇹🇷 土耳其 (Turkey) 03 - joyye
   - 🇹🇷 土耳其 (Turkey) 04 - joyye
+  - 🇹🇷 土耳其 (Turkey) 05 - joyye
+  - 🇹🇷 土耳其 (Turkey) 06 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -70,5 +96,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 02 - joyye
   - 🇹🇷 土耳其 (Turkey) 03 - joyye
   - 🇹🇷 土耳其 (Turkey) 04 - joyye
+  - 🇹🇷 土耳其 (Turkey) 05 - joyye
+  - 🇹🇷 土耳其 (Turkey) 06 - joyye
 rules:
 - MATCH,PROXIES
