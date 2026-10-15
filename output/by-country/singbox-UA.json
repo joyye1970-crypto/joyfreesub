@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 UA 01 - joyye"
+        "🇺🇦 UA 01 - joyye",
+        "🇺🇦 UA 02 - joyye",
+        "🇺🇦 UA 03 - joyye",
+        "🇺🇦 UA 04 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - joyye"
+        "🇺🇦 UA 01 - joyye",
+        "🇺🇦 UA 02 - joyye",
+        "🇺🇦 UA 03 - joyye",
+        "🇺🇦 UA 04 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
