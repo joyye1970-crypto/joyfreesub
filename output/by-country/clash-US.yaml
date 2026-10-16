@@ -6,6 +6,27 @@ log-level: info
 proxies:
 - name: 🇺🇸 美国 (United States) 01 - joyye
   type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 02 - joyye
+  type: ss
+  server: 15.204.247.206
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇺🇸 美国 (United States) 03 - joyye
+  type: vless
   server: 172.67.155.65
   port: 8443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
@@ -18,7 +39,183 @@ proxies:
     path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 02 - joyye
+- name: 🇺🇸 美国 (United States) 04 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 05 - joyye
+  type: vmess
+  server: 104.17.147.222
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 美国 (United States) 06 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 07 - joyye
+  type: vless
+  server: 104.18.81.30
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 08 - joyye
+  type: vless
+  server: 47.75.125.163
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /go.php/group?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 09 - joyye
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 10 - joyye
+  type: vless
+  server: 209.46.30.149
+  port: 443
+  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: resources.office.com.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /us-gllc
+    headers:
+      Host: resources.office.com.r3xxe.eu.cc
+- name: 🇺🇸 美国 (United States) 11 - joyye
+  type: vless
+  server: 47.253.187.132
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /forum/page?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 12 - joyye
+  type: vless
+  server: 104.17.104.80
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /movies/resource/film
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 13 - joyye
+  type: vless
+  server: 47.75.104.211
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /course/wenku?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 14 - joyye
+  type: vless
+  server: 188.164.248.48
+  port: 2083
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: helloapps.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: helloapps.cc.cd
+- name: 🇺🇸 美国 (United States) 15 - joyye
+  type: vless
+  server: 47.251.110.54
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /trade?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 16 - joyye
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 17 - joyye
   type: vless
   server: 188.114.98.0
   port: 443
@@ -29,53 +226,54 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---bored_vpn
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 03 - joyye
+- name: 🇺🇸 美国 (United States) 18 - joyye
   type: vless
-  server: 530.150333.xyz
-  port: 21001
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 04 - joyye
-  type: vless
-  server: 530.150333.xyz
-  port: 21001
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 05 - joyye
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 06 - joyye
-  type: ss
-  server: 173.244.56.6
+  server: 172.67.67.178
   port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
-- name: 🇺🇸 美国 (United States) 07 - joyye
+  tls: true
+  skip-cert-verify: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.nAsTaRaN.DpDnS.OrG
+- name: 🇺🇸 美国 (United States) 19 - joyye
   type: vless
-  server: 104.18.43.174
+  server: 104.19.4.149
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 20 - joyye
+  type: vless
+  server: 47.85.38.117
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /my/ads/online?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 21 - joyye
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -84,50 +282,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /cart/docs/www/proxyip
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 08 - joyye
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 09 - joyye
-  type: ss
-  server: 156.146.38.168
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 10 - joyye
-  type: ss
-  server: 156.146.38.169
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 11 - joyye
-  type: vless
-  server: 530.150333.xyz
-  port: 21003
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 12 - joyye
+- name: 🇺🇸 美国 (United States) 22 - joyye
   type: vless
   server: 172.64.144.82
   port: 443
@@ -141,134 +299,121 @@ proxies:
     path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 13 - joyye
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 14 - joyye
-  type: vmess
-  server: us5-1.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server4.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /androirfdsreoightrjh
-    headers:
-      Host: server4.9966338.xyz
-- name: 🇺🇸 美国 (United States) 15 - joyye
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 16 - joyye
-  type: ss
-  server: 15.204.246.132
-  port: 7307
-  cipher: aes-256-gcm
-  password: FoOiGlkAA9yPEGP
-  udp: true
-- name: 🇺🇸 美国 (United States) 17 - joyye
-  type: vmess
-  server: 172.66.203.67
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 18 - joyye
-  type: vmess
-  server: 172.67.167.78
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 美国 (United States) 19 - joyye
+- name: 🇺🇸 美国 (United States) 23 - joyye
   type: vless
-  server: 172.67.155.65
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  server: 172.66.47.45
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 20 - joyye
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: wk1.f1w.de5.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 21 - joyye
-  type: vmess
-  server: 169.197.142.22
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 22 - joyye
+      Host: wk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 24 - joyye
   type: vless
-  server: 530.150333.xyz
-  port: 21004
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
+  server: 172.67.79.26
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 23 - joyye
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /ranking/ja/dload
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 25 - joyye
   type: vless
-  server: uspanel.unixzone.us
+  server: 172.64.147.34
+  port: 2096
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 26 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 27 - joyye
+  type: vless
+  server: 8.35.211.188
+  port: 8443
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vpn-1fj.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vpn-1fj.pages.dev
+- name: 🇺🇸 美国 (United States) 28 - joyye
+  type: vless
+  server: 104.18.0.1
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: all.speedtest03.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
+- name: 🇺🇸 美国 (United States) 29 - joyye
+  type: vless
+  server: 172.64.146.66
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 30 - joyye
+  type: vless
+  server: 104.26.12.140
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 31 - joyye
+  type: vless
+  server: 69.48.201.136
   port: 30016
   uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
   udp: true
@@ -279,33 +424,35 @@ proxies:
     path: /usserver
     headers:
       Host: uspanel.unixzone.us
-- name: 🇺🇸 美国 (United States) 24 - joyye
-  type: vmess
-  server: chatgpt.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 32 - joyye
+  type: vless
+  server: 104.21.70.22
+  port: 443
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
+  servername: luminouspetal.cyou
   network: ws
   ws-opts:
-    path: /lMnsZUN4/
+    path: /raccoonwsvless
     headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 美国 (United States) 25 - joyye
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+      Host: luminouspetal.cyou
+- name: 🇺🇸 美国 (United States) 33 - joyye
+  type: vless
+  server: 104.18.42.54
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 26 - joyye
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 34 - joyye
   type: vmess
   server: 104.17.77.77
   port: 8443
@@ -321,37 +468,86 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 美国 (United States) 27 - joyye
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 28 - joyye
+- name: 🇺🇸 美国 (United States) 35 - joyye
   type: vmess
-  server: 172.66.203.67
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vmess.lbw666.dpdns.org
+  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
-    path: /ws
+    path: /lMnsZUN4/
     headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 29 - joyye
+      Host: v2ray1.dozapp.xyz
+- name: 🇺🇸 美国 (United States) 36 - joyye
   type: ss
-  server: 15.204.247.244
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-- name: 🇺🇸 美国 (United States) 30 - joyye
+- name: 🇺🇸 美国 (United States) 37 - joyye
+  type: vless
+  server: 136.67.16.72
+  port: 443
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇺🇸 美国 (United States) 38 - joyye
+  type: vless
+  server: 104.26.4.57
+  port: 2087
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 39 - joyye
+  type: vmess
+  server: 172.67.167.78
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🇺🇸 美国 (United States) 40 - joyye
+  type: vless
+  server: 131.186.24.124
+  port: 587
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.schzyc.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.CMLiussss.net
+    headers:
+      Host: cf3.schzyc.cc.cd
+- name: 🇺🇸 美国 (United States) 41 - joyye
   type: vless
   server: us1-1.998998.best
   port: 443
@@ -365,599 +561,129 @@ proxies:
     path: /drsukitgreiusweqa9otrh983
     headers:
       Host: server5.9966338.xyz
-- name: 🇺🇸 美国 (United States) 31 - joyye
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 32 - joyye
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 33 - joyye
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#/?TELEGRAM--MTMVPN--mtmvpn?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 34 - joyye
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 35 - joyye
-  type: ss
-  server: 198.98.53.130
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 🇺🇸 美国 (United States) 36 - joyye
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 37 - joyye
-  type: vless
-  server: 31.77.126.2
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 38 - joyye
-  type: vless
-  server: 172.67.155.65
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 39 - joyye
-  type: ss
-  server: 15.204.247.206
-  port: 4444
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- name: 🇺🇸 美国 (United States) 40 - joyye
-  type: ss
-  server: 15.204.247.175
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇺🇸 美国 (United States) 41 - joyye
-  type: vless
-  server: 104.18.35.15
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇺🇸 美国 (United States) 42 - joyye
   type: ss
-  server: 37.19.198.236
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  server: 15.204.247.124
+  port: 2375
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
   udp: true
 - name: 🇺🇸 美国 (United States) 43 - joyye
-  type: vless
-  server: 199.232.78.159
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: google.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pannn1.global.ssl.fastly.net.
 - name: 🇺🇸 美国 (United States) 44 - joyye
-  type: ss
-  server: 156.146.38.169
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 45 - joyye
-  type: ss
-  server: 103.11.76.248
-  port: 28679
-  cipher: 2022-blake3-aes-128-gcm
-  password: NzJlOTQ5NWYtM2ZkYi00Cg==
-  udp: true
-- name: 🇺🇸 美国 (United States) 46 - joyye
-  type: vmess
-  server: 129.146.143.80
-  port: 48111
-  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 47 - joyye
-  type: vless
-  server: 172.64.144.82
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 48 - joyye
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 49 - joyye
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 50 - joyye
-  type: vless
-  server: 530.150333.xyz
-  port: 21001
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 51 - joyye
-  type: vmess
-  server: 172.66.203.67
-  port: 443
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 52 - joyye
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 53 - joyye
-  type: vless
-  server: 38.107.232.36
-  port: 80
-  uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 38.107.232.36
-- name: 🇺🇸 美国 (United States) 54 - joyye
-  type: vless
-  server: 3h-unitedstates1.09vpn.com
-  port: 80
-  uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 3h-unitedstates1.09vpn.com
-- name: 🇺🇸 美国 (United States) 55 - joyye
-  type: ss
-  server: 37.19.198.236
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 56 - joyye
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 57 - joyye
-  type: vless
-  server: 530.150333.xyz
-  port: 21002
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 58 - joyye
-  type: vmess
-  server: 38.91.107.49
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 59 - joyye
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server5.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /drsukitgreiusweqa9otrh983?ed=2560
-    headers:
-      Host: server5.9966338.xyz
-- name: 🇺🇸 美国 (United States) 60 - joyye
-  type: ss
-  server: 156.146.38.167
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 61 - joyye
-  type: vmess
-  server: 104.17.147.222
-  port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 62 - joyye
-  type: vless
-  server: 530.150333.xyz
-  port: 21001
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 63 - joyye
-  type: ss
-  server: 64.74.163.69
-  port: 18766
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-  udp: true
-- name: 🇺🇸 美国 (United States) 64 - joyye
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 65 - joyye
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 66 - joyye
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 67 - joyye
-  type: vmess
-  server: 129.146.77.248
-  port: 39495
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: 129.146.77.248
-- name: 🇺🇸 美国 (United States) 68 - joyye
-  type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇺🇸 美国 (United States) 69 - joyye
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 70 - joyye
-  type: vmess
-  server: 67.220.95.3
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 71 - joyye
-  type: vless
-  server: 45.138.100.248
-  port: 10443
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 72 - joyye
-  type: vless
-  server: 45.138.100.248
-  port: 10443
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 73 - joyye
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 74 - joyye
-  type: ss
-  server: 64.74.163.69
-  port: 18766
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-  udp: true
-- name: 🇺🇸 美国 (United States) 75 - joyye
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇺🇸 美国 (United States) 76 - joyye
-  type: vmess
-  server: 38.110.1.246
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 77 - joyye
-  type: vless
-  server: 104.21.70.22
-  port: 443
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: luminouspetal.cyou
-  network: ws
-  ws-opts:
-    path: /raccoonwsvless
-    headers:
-      Host: luminouspetal.cyou
-- name: 🇺🇸 美国 (United States) 78 - joyye
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 79 - joyye
-  type: vless
-  server: 3h-unitedstates1.09vpn.com
-  port: 80
-  uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 3h-unitedstates1.09vpn.com
-- name: 🇺🇸 美国 (United States) 80 - joyye
-  type: vless
-  server: 136.67.16.72
-  port: 443
-  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 81 - joyye
   type: ss
   server: 37.19.198.243
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸 美国 (United States) 82 - joyye
+- name: 🇺🇸 美国 (United States) 45 - joyye
   type: vless
-  server: 530.150333.xyz
-  port: 21003
-  uuid: a7f30d09-59d6-4aee-8145-a9c58f8ae170
+  server: 172.67.78.117
+  port: 2053
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: AgpdDitYHUIsl0-hVB6HV9vlTyfP25grps1E8G2BLDA
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 83 - joyye
-  type: vless
-  server: 172.66.0.162
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: helloapps.cc.cd
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 美国 (United States) 84 - joyye
+      Host: helloapps.cc.cd
+- name: 🇺🇸 美国 (United States) 46 - joyye
+  type: ss
+  server: 15.204.246.132
+  port: 7307
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: 🇺🇸 美国 (United States) 47 - joyye
   type: vless
-  server: zorusx861.233874.xyz
-  port: 8888
-  uuid: 2b3e3a7b-5c74-45af-a9f6-e55edf1e9cf5
+  server: 8.39.125.48
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: 5CVqzPWvXM--BuEusVLOiliEsriCQn2otWxk4Ihvnxs
-  servername: addons.mozilla.org
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 85 - joyye
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /web/mobile/friend
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 48 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 49 - joyye
+  type: ss
+  server: 64.74.163.69
+  port: 18766
+  cipher: aes-128-gcm
+  password: 4efe1af272e7292139b889f6a63ee071
+  udp: true
+- name: 🇺🇸 美国 (United States) 50 - joyye
+  type: vless
+  server: 47.77.237.245
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /res/dl/streams?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 51 - joyye
+  type: vless
+  server: 104.18.27.94
+  port: 443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 52 - joyye
+  type: vless
+  server: 172.66.1.20
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /messages/picture/clip
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 53 - joyye
   type: vless
   server: 38.107.236.166
   port: 8443
@@ -971,9 +697,399 @@ proxies:
     path: /vless/
     headers:
       Host: 3h-unitedstates3.09vpn.com
+- name: 🇺🇸 美国 (United States) 54 - joyye
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 55 - joyye
+  type: vless
+  server: 8.35.211.87
+  port: 2096
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 56 - joyye
+  type: ss
+  server: 198.98.53.130
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: eDfN7SODQceIOmIAbtJJtK
+  udp: true
+- name: 🇺🇸 美国 (United States) 57 - joyye
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 58 - joyye
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.138.100.248
+- name: 🇺🇸 美国 (United States) 59 - joyye
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.138.100.248
+- name: 🇺🇸 美国 (United States) 60 - joyye
+  type: vless
+  server: 8.39.125.120
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /dload/star/app
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 61 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 62 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: T
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 63 - joyye
+  type: vless
+  server: 104.243.33.154
+  port: 45299
+  uuid: 261f011c-e97a-4d72-b596-e6329b50b47b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 64 - joyye
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 65 - joyye
+  type: vless
+  server: 199.68.156.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: notls.lukongtou.eu.org
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇺🇸 美国 (United States) 66 - joyye
+  type: vless
+  server: 188.164.248.123
+  port: 8443
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vp21.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vp21.cc.cd
+- name: 🇺🇸 美国 (United States) 67 - joyye
+  type: vless
+  server: 104.16.148.244
+  port: 2087
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 68 - joyye
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 69 - joyye
+  type: vless
+  server: 104.18.41.190
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 70 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 71 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 72 - joyye
+  type: vless
+  server: 172.67.75.4
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /city
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 73 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 74 - joyye
+  type: vless
+  server: 172.67.70.92
+  port: 2053
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 75 - joyye
+  type: vless
+  server: 172.66.44.133
+  port: 443
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-tomcat.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: web-tomcat.pages.dev
+- name: 🇺🇸 美国 (United States) 76 - joyye
+  type: ss
+  server: 15.204.247.244
+  port: 4444
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: 🇺🇸 美国 (United States) 77 - joyye
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 78 - joyye
+  type: ss
+  server: 64.74.163.67
+  port: 18764
+  cipher: aes-128-gcm
+  password: 4efe1af272e7292139b889f6a63ee071
+  udp: true
+- name: 🇺🇸 美国 (United States) 79 - joyye
+  type: ss
+  server: 216.105.168.18
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: hCCWOcIsK5wrFz4OX70rWf
+  udp: true
+- name: 🇺🇸 美国 (United States) 80 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 81 - joyye
+  type: vless
+  server: 104.26.13.140
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 82 - joyye
+  type: vless
+  server: 104.17.189.34
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /films/events/documents
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 83 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 84 - joyye
+  type: vless
+  server: 104.18.26.94
+  port: 443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 85 - joyye
+  type: vless
+  server: 8.39.125.133
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /doujin/channels
+    headers:
+      Host: d39333476.pages.dev
 - name: 🇺🇸 美国 (United States) 86 - joyye
   type: vmess
-  server: 84.17.41.2
+  server: 67.220.95.3
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -982,44 +1098,146 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇺🇸 美国 (United States) 87 - joyye
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
+  type: vless
+  server: 172.67.78.29
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /thread/file/members
+    headers:
+      Host: d39333476.pages.dev
 - name: 🇺🇸 美国 (United States) 88 - joyye
   type: vmess
-  server: us16-4.998998.best
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 89 - joyye
+  type: vless
+  server: 162.159.192.125
   port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 90 - joyye
+  type: vless
+  server: 104.17.104.80
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /movies/resource/film
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 91 - joyye
+  type: vless
+  server: 8.35.211.43
+  port: 2053
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 92 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 93 - joyye
+  type: vmess
+  server: 172.66.203.67
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: server1.9966338.xyz
+  servername: vmess.lbw666.dpdns.org
   network: ws
   ws-opts:
-    path: /efrsdioy98wert
+    path: /ws
     headers:
-      Host: server1.9966338.xyz
-- name: 🇺🇸 美国 (United States) 89 - joyye
+      Host: vmess.lbw666.dpdns.org
+- name: 🇺🇸 美国 (United States) 94 - joyye
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇺🇸 美国 (United States) 95 - joyye
   type: vless
-  server: 3h-unitedstates1.09vpn.com
-  port: 80
-  uuid: 18cf8db1-9f86-43f7-baa0-382efb7f2dfa
+  server: 162.159.140.85
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /go.php?ed=2560fp=chrome
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 96 - joyye
+  type: vless
+  server: 69.48.201.136
+  port: 30016
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless/
+    path: /usserver
     headers:
-      Host: 3h-unitedstates1.09vpn.com
-- name: 🇺🇸 美国 (United States) 90 - joyye
+      Host: zoom.us
+- name: 🇺🇸 美国 (United States) 97 - joyye
+  type: vless
+  server: 104.243.33.154
+  port: 45299
+  uuid: 261f011c-e97a-4d72-b596-e6329b50b47b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 98 - joyye
   type: vmess
-  server: 67.220.85.46
+  server: 169.197.142.22
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1027,9 +1245,9 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 91 - joyye
+- name: 🇺🇸 美国 (United States) 99 - joyye
   type: vmess
-  server: 67.220.85.46
+  server: 169.197.142.22
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1037,7 +1255,255 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 92 - joyye
+- name: 🇺🇸 美国 (United States) 100 - joyye
+  type: ss
+  server: 37.19.198.160
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 101 - joyye
+  type: vless
+  server: 8.35.211.161
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /comics/buy/categories
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 102 - joyye
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 103 - joyye
+  type: vless
+  server: 8.35.211.36
+  port: 2087
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 104 - joyye
+  type: vless
+  server: 172.66.44.211
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 105 - joyye
+  type: vless
+  server: 172.64.146.116
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: support.zoom.us.blackshadow.dpdns.org
+  network: ws
+  ws-opts:
+    path: /44.209.52.7-443
+    headers:
+      Host: support.zoom.us.blackshadow.dpdns.org
+- name: 🇺🇸 美国 (United States) 106 - joyye
+  type: vless
+  server: 172.67.75.194
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 107 - joyye
+  type: ss
+  server: 173.244.56.6
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 108 - joyye
+  type: vless
+  server: 172.64.145.82
+  port: 443
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf.zhahui.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf.zhahui.de5.net
+- name: 🇺🇸 美国 (United States) 109 - joyye
+  type: vless
+  server: 172.67.73.75
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /blog/directory
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 110 - joyye
+  type: vless
+  server: 47.253.251.184
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /article/pages/archive?ed=2560fp=chrome
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 111 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 112 - joyye
+  type: vless
+  server: 188.164.248.72
+  port: 443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /code/cp/classify
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 113 - joyye
+  type: vless
+  server: 172.64.156.111
+  port: 443
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf.zhahui.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf.zhahui.de5.net
+- name: 🇺🇸 美国 (United States) 114 - joyye
+  type: vless
+  server: 8.35.211.28
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /about/txt/share
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 115 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 116 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 117 - joyye
+  type: vless
+  server: 64.176.9.246
+  port: 443
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.schzyc.cc.cd
+  network: ws
+  ws-opts:
+    path: /proxyip=ProxyIP.CMLiussss.net
+    headers:
+      Host: cf3.schzyc.cc.cd
+- name: 🇺🇸 美国 (United States) 118 - joyye
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 119 - joyye
   type: vmess
   server: 38.91.107.49
   port: 18000
@@ -1047,22 +1513,615 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇺🇸 美国 (United States) 93 - joyye
+- name: 🇺🇸 美国 (United States) 120 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: '3'
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 121 - joyye
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 122 - joyye
+  type: vless
+  server: 47.75.104.254
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /img?ed=2560fp=chrome
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 123 - joyye
+  type: vless
+  server: 172.66.148.229
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 124 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 125 - joyye
+  type: vless
+  server: 172.64.145.202
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 126 - joyye
+  type: vless
+  server: 188.164.248.117
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /faq
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 127 - joyye
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 128 - joyye
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 129 - joyye
+  type: vless
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 130 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 131 - joyye
+  type: vless
+  server: 172.67.71.122
+  port: 2087
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 132 - joyye
+  type: vless
+  server: 172.67.161.104
+  port: 443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 133 - joyye
   type: vmess
-  server: cf.0sm.com
-  port: 80
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  server: 129.146.143.80
+  port: 48111
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 134 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 135 - joyye
+  type: vless
+  server: 188.164.248.81
+  port: 2087
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇺🇸 美国 (United States) 136 - joyye
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 137 - joyye
+  type: vless
+  server: uspanel.unixzone.us
+  port: 30016
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /usserver
+    headers:
+      Host: uspanel.unixzone.us
+- name: 🇺🇸 美国 (United States) 138 - joyye
+  type: vless
+  server: 8.39.125.213
+  port: 443
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇺🇸 美国 (United States) 139 - joyye
+  type: ss
+  server: 37.19.198.243
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 140 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 141 - joyye
+  type: vless
+  server: 104.26.4.157
+  port: 2083
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 142 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 143 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--V2ray_confiig?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 144 - joyye
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 145 - joyye
+  type: vless
+  server: 172.66.47.123
+  port: 443
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-tomcat.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: web-tomcat.pages.dev
+- name: 🇺🇸 美国 (United States) 146 - joyye
+  type: vless
+  server: 104.16.10.135
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws#/?TELEGRAM--MTMVPN--mtmvpn?ed=512
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 147 - joyye
+  type: vless
+  server: 104.17.119.115
+  port: 443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /movie/shop
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 148 - joyye
+  type: vless
+  server: 172.67.75.52
+  port: 2083
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 149 - joyye
+  type: vless
+  server: 47.251.95.178
+  port: 443
+  uuid: 70756c73-0000-4000-8000-650000000000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: parsa-panel-u48we.wotic15356.workers.dev
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: 🇺🇸 美国 (United States) 150 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 151 - joyye
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 152 - joyye
+  type: vless
+  server: 8.35.211.114
+  port: 2053
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 153 - joyye
+  type: vless
+  server: 104.16.10.21
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
   network: ws
   ws-opts:
     path: /ws
     headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 94 - joyye
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 154 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 155 - joyye
+  type: vless
+  server: 104.17.213.101
+  port: 2083
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /zip/items/ads
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 156 - joyye
+  type: vless
+  server: 104.19.47.188
+  port: 8443
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 157 - joyye
+  type: vmess
+  server: 38.110.1.246
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 158 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 159 - joyye
+  type: vless
+  server: 104.16.157.17
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /stars
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 160 - joyye
+  type: vless
+  server: 8.39.125.188
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /music
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 161 - joyye
+  type: vless
+  server: 104.17.189.78
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 162 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server5.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /drsukitgreiusweqa9otrh983?ed=2560
+    headers:
+      Host: server5.9966338.xyz
+- name: 🇺🇸 美国 (United States) 163 - joyye
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 164 - joyye
+  type: vless
+  server: 192.0.54.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime35.workers.dev
+- name: 🇺🇸 美国 (United States) 165 - joyye
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 166 - joyye
+  type: vless
+  server: 104.17.28.83
+  port: 2087
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇺🇸 美国 (United States) 167 - joyye
   type: vmess
   server: cf.0sm.com
   port: 443
@@ -1078,158 +2137,37 @@ proxies:
     path: /ws
     headers:
       Host: vmess.lbw666.dpdns.org
-- name: 🇺🇸 美国 (United States) 95 - joyye
-  type: vmess
-  server: 38.45.66.187
-  port: 12288
-  uuid: ae6672dd-ff20-453f-ed98-47a078bd0cbc
-  alterId: 0
-  cipher: auto
+- name: 🇺🇸 美国 (United States) 168 - joyye
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 96 - joyye
-  type: ss
-  server: 156.146.38.168
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 97 - joyye
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 98 - joyye
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 169 - joyye
   type: vmess
-  server: 129.146.77.248
-  port: 39495
-  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  server: us5-1.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: ''
-- name: 🇺🇸 美国 (United States) 99 - joyye
-  type: vless
-  server: us1-1.998998.best
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
   tls: true
   skip-cert-verify: true
-  servername: server5.9966338.xyz
+  servername: server4.9966338.xyz
   network: ws
   ws-opts:
-    path: /drsukitgreiusweqa9otrh983
+    path: /androirfdsreoightrjh
     headers:
-      Host: server5.9966338.xyz
-- name: 🇺🇸 美国 (United States) 100 - joyye
-  type: vless
-  server: ccs2g.pai50288.uk
-  port: 443
-  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccs2g.pai50288.uk
-  network: ws
-  ws-opts:
-    path: /pai50288
-    headers:
-      Host: ccs2g.pai50288.uk
-- name: 🇺🇸 美国 (United States) 101 - joyye
-  type: vless
-  server: 104.24.54.160
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 美国 (United States) 102 - joyye
-  type: vless
-  server: 45.138.100.248
-  port: 14430
-  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 45.138.100.248
-- name: 🇺🇸 美国 (United States) 103 - joyye
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇺🇸 美国 (United States) 104 - joyye
-  type: vless
-  server: uspanel.unixzone.us
-  port: 30016
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /usserver
-    headers:
-      Host: uspanel.unixzone.us
-- name: 🇺🇸 美国 (United States) 105 - joyye
-  type: ss
-  server: 64.74.163.67
-  port: 18764
-  cipher: aes-128-gcm
-  password: 4efe1af272e7292139b889f6a63ee071
-  udp: true
-- name: 🇺🇸 美国 (United States) 106 - joyye
-  type: vless
-  server: 136.107.170.196
-  port: 443
-  uuid: d6d58f01-b5ce-4d47-bce0-b8a806155852
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: L1S0DpFtHPBeyENZUvJPcrFZIct6kcHUPxuzNaGXIFY
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇺🇸 美国 (United States) 107 - joyye
-  type: vless
-  server: 69.48.201.136
-  port: 30016
-  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /usserver
-    headers:
-      Host: uspanel.unixzone.us
-- name: 🇺🇸 美国 (United States) 108 - joyye
+      Host: server4.9966338.xyz
+- name: 🇺🇸 美国 (United States) 170 - joyye
   type: vmess
   server: 104.21.91.53
   port: 8443
@@ -1245,30 +2183,1685 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 美国 (United States) 109 - joyye
+- name: 🇺🇸 美国 (United States) 171 - joyye
+  type: vless
+  server: 8.35.211.43
+  port: 2053
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 172 - joyye
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 173 - joyye
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 174 - joyye
+  type: vless
+  server: 172.67.167.179
+  port: 443
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xstack.mahanfixe.workers.dev
+  network: ws
+  ws-opts:
+    path: /xiron
+    headers:
+      Host: xstack.mahanfixe.workers.dev
+- name: 🇺🇸 美国 (United States) 175 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 176 - joyye
+  type: vless
+  server: 8.35.211.98
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /post/zh
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 177 - joyye
+  type: vless
+  server: us1-1.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server5.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /drsukitgreiusweqa9otrh983
+    headers:
+      Host: server5.9966338.xyz
+- name: 🇺🇸 美国 (United States) 178 - joyye
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 179 - joyye
+  type: vless
+  server: 188.164.248.96
+  port: 8443
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇺🇸 美国 (United States) 180 - joyye
+  type: vless
+  server: 104.24.30.89
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
+- name: 🇺🇸 美国 (United States) 181 - joyye
+  type: vless
+  server: 172.66.148.229
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 182 - joyye
+  type: vless
+  server: 172.66.1.159
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /go.html/item/content
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 183 - joyye
+  type: vless
+  server: 104.26.5.60
+  port: 2053
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 184 - joyye
+  type: vless
+  server: 172.67.75.194
+  port: 2096
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇺🇸 美国 (United States) 185 - joyye
+  type: vless
+  server: 172.64.144.148
+  port: 443
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf.zhahui.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf.zhahui.de5.net
+- name: 🇺🇸 美国 (United States) 186 - joyye
+  type: vless
+  server: 104.20.47.114
+  port: 8443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 187 - joyye
+  type: vless
+  server: 47.254.251.37
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /archives?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 188 - joyye
+  type: vless
+  server: 172.67.65.56
+  port: 2053
+  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: whitecreeper.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: whitecreeper.pages.dev
+- name: 🇺🇸 美国 (United States) 189 - joyye
+  type: ss
+  server: 156.146.38.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 190 - joyye
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 191 - joyye
+  type: vless
+  server: www.epicgames.com
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: openapi.next-ai.us.ci
+- name: 🇺🇸 美国 (United States) 192 - joyye
+  type: vless
+  server: 188.255.156.112
+  port: 8443
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf3.schzyc.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf3.schzyc.cc.cd
+- name: 🇺🇸 美国 (United States) 193 - joyye
+  type: vmess
+  server: 172.64.80.1
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: 🇺🇸 美国 (United States) 194 - joyye
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🇺🇸 美国 (United States) 195 - joyye
+  type: vless
+  server: 8.39.125.139
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /category
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 196 - joyye
+  type: ss
+  server: 64.74.163.69
+  port: 18766
+  cipher: aes-128-gcm
+  password: 4efe1af272e7292139b889f6a63ee071
+  udp: true
+- name: 🇺🇸 美国 (United States) 197 - joyye
+  type: ss
+  server: 15.204.233.41
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇺🇸 美国 (United States) 198 - joyye
+  type: vless
+  server: 162.159.152.205
+  port: 443
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vless2-8vx.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vless2-8vx.pages.dev
+- name: 🇺🇸 美国 (United States) 199 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 200 - joyye
+  type: vless
+  server: 172.67.67.178
+  port: 443
+  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.nastaran.dpdns.org
+- name: 🇺🇸 美国 (United States) 201 - joyye
+  type: vless
+  server: 188.164.248.250
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /mobile/link
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 202 - joyye
+  type: vless
+  server: 47.88.15.89
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /magnet?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 203 - joyye
+  type: vless
+  server: 8.39.125.224
+  port: 8443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /file
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 204 - joyye
+  type: vless
+  server: 104.24.54.160
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 205 - joyye
+  type: vless
+  server: 136.67.16.72
+  port: 443
+  uuid: 9d0395c0-016f-453e-b0be-fc66f1ee1d80
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: aGm3egxU7SVqVw-oxqXbJ0u4ctldnmTjwaDh4Mao2EE
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 (United States) 206 - joyye
+  type: vless
+  server: 8.39.125.139
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /category
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 207 - joyye
+  type: vmess
+  server: 38.45.66.187
+  port: 12288
+  uuid: ae6672dd-ff20-453f-ed98-47a078bd0cbc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 208 - joyye
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 209 - joyye
+  type: vless
+  server: 8.35.211.188
+  port: 8443
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vpn-1fj.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vpn-1fj.pages.dev
+- name: 🇺🇸 美国 (United States) 210 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 211 - joyye
+  type: vless
+  server: 104.18.43.174
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 212 - joyye
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 213 - joyye
+  type: vless
+  server: 162.159.198.1
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /acg?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 214 - joyye
+  type: vmess
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: ''
+- name: 🇺🇸 美国 (United States) 215 - joyye
+  type: vless
+  server: 188.164.248.72
+  port: 443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /code/cp/classify
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 216 - joyye
+  type: vless
+  server: 172.64.145.202
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 217 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 218 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---Vpney
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 219 - joyye
+  type: vmess
+  server: us16-4.998998.best
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: server1.9966338.xyz
+  network: ws
+  ws-opts:
+    path: /efrsdioy98wert
+    headers:
+      Host: server1.9966338.xyz
+- name: 🇺🇸 美国 (United States) 220 - joyye
+  type: vless
+  server: 104.16.149.244
+  port: 2087
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 221 - joyye
+  type: vless
+  server: 104.243.33.154
+  port: 45299
+  uuid: 261f011c-e97a-4d72-b596-e6329b50b47b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 222 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 223 - joyye
+  type: vless
+  server: support.zoom.us
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇺🇸 美国 (United States) 224 - joyye
+  type: vless
+  server: uspanel.unixzone.us
+  port: 30016
+  uuid: 03dc60cb-a8d4-4226-93fe-0e6cbf77fe5a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /usserver
+    headers:
+      Host: uspanel.unixzone.us
+- name: 🇺🇸 美国 (United States) 225 - joyye
+  type: ss
+  server: 103.11.76.248
+  port: 28679
+  cipher: 2022-blake3-aes-128-gcm
+  password: NzJlOTQ5NWYtM2ZkYi00Cg==
+  udp: true
+- name: 🇺🇸 美国 (United States) 226 - joyye
+  type: vless
+  server: 162.159.192.125
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 227 - joyye
+  type: vless
+  server: 104.243.33.154
+  port: 45299
+  uuid: 261f011c-e97a-4d72-b596-e6329b50b47b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 228 - joyye
+  type: vless
+  server: 172.66.0.162
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇺🇸 美国 (United States) 229 - joyye
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 45.138.100.248
+- name: 🇺🇸 美国 (United States) 230 - joyye
+  type: vless
+  server: 104.21.90.210
+  port: 443
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 231 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 232 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 233 - joyye
+  type: vless
+  server: 104.26.4.60
+  port: 2053
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 234 - joyye
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 235 - joyye
+  type: vless
+  server: 69.63.221.116
+  port: 25517
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wzs.echo.net.eu.org
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HBRETS1lYDldeEEFRGxhbVloPHhpEVl9AFwxSGQ9bSQ==fp=chrome
+    headers:
+      Host: wzs.echo.net.eu.org
+- name: 🇺🇸 美国 (United States) 236 - joyye
   type: ss
   server: 156.146.38.167
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇺🇸 美国 (United States) 110 - joyye
+- name: 🇺🇸 美国 (United States) 237 - joyye
   type: vmess
-  server: node8.liudonghoe.com
+  server: 129.146.77.248
+  port: 39495
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: 129.146.77.248
+- name: 🇺🇸 美国 (United States) 238 - joyye
+  type: vless
+  server: 188.164.248.151
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /item/m
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 239 - joyye
+  type: vless
+  server: 104.234.239.139
   port: 443
-  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
+  uuid: 70756c73-0000-4000-8000-650000000000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: parsa-panel-u48we.wotic15356.workers.dev
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: 🇺🇸 美国 (United States) 240 - joyye
+  type: ss
+  server: 156.146.38.167
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 241 - joyye
+  type: vless
+  server: 104.24.2.147
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 242 - joyye
+  type: vmess
+  server: 38.91.107.49
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 243 - joyye
+  type: vless
+  server: 8.35.211.161
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /comics/buy/categories
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 244 - joyye
+  type: vless
+  server: 172.67.222.62
+  port: 443
+  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf-vless-4cf55824.aimall.fr
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: cf-vless-4cf55824.aimall.fr
+- name: 🇺🇸 美国 (United States) 245 - joyye
+  type: vless
+  server: 104.26.5.157
+  port: 2083
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 246 - joyye
+  type: vless
+  server: 172.64.147.85
+  port: 443
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wallweb-4r0.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wallweb-4r0.pages.dev
+- name: 🇺🇸 美国 (United States) 247 - joyye
+  type: vless
+  server: 188.114.97.3
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 248 - joyye
+  type: vless
+  server: 172.67.155.65
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 249 - joyye
+  type: vless
+  server: 104.19.44.174
+  port: 2083
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 250 - joyye
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 251 - joyye
+  type: vless
+  server: 104.18.40.171
+  port: 443
+  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wallweb-4r0.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wallweb-4r0.pages.dev
+- name: 🇺🇸 美国 (United States) 252 - joyye
+  type: vless
+  server: 104.17.57.40
+  port: 443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /qa
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 253 - joyye
+  type: ss
+  server: 64.74.163.67
+  port: 18764
+  cipher: aes-128-gcm
+  password: 4efe1af272e7292139b889f6a63ee071
+  udp: true
+- name: 🇺🇸 美国 (United States) 254 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 255 - joyye
+  type: vless
+  server: 104.26.12.37
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /settings/blog
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 256 - joyye
+  type: vless
+  server: 172.66.44.211
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: wk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 257 - joyye
+  type: vless
+  server: 104.243.33.154
+  port: 45299
+  uuid: 261f011c-e97a-4d72-b596-e6329b50b47b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 258 - joyye
+  type: vless
+  server: 104.19.50.28
+  port: 443
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vpn-1fj.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vpn-1fj.pages.dev
+- name: 🇺🇸 美国 (United States) 259 - joyye
+  type: vless
+  server: 172.66.0.230
+  port: 2083
+  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: helloapps.cc.cd
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: helloapps.cc.cd
+- name: 🇺🇸 美国 (United States) 260 - joyye
+  type: vless
+  server: 172.66.0.203
+  port: 2053
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /mall/ajax
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 261 - joyye
+  type: vless
+  server: 8.35.211.185
+  port: 443
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇺🇸 美国 (United States) 262 - joyye
+  type: vless
+  server: 172.67.142.169
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🇺🇸 美国 (United States) 263 - joyye
+  type: vless
+  server: 162.159.250.29
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 264 - joyye
+  type: vless
+  server: 8.39.125.193
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /live/tv
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 265 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 266 - joyye
+  type: vless
+  server: 188.114.97.3
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇺🇸 美国 (United States) 267 - joyye
+  type: vless
+  server: 185.193.29.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: notls.lukongtou.eu.org
+  network: ws
+  ws-opts:
+    path: /Telegram-WangCai2≡ƒç¿≡ƒç│
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇺🇸 美国 (United States) 268 - joyye
+  type: vless
+  server: 104.17.125.171
+  port: 2096
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /trade
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 269 - joyye
+  type: vless
+  server: 66.235.200.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime47.workers.dev
+- name: 🇺🇸 美国 (United States) 270 - joyye
+  type: vless
+  server: 43.110.39.42
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /section/app?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 271 - joyye
+  type: vmess
+  server: 104.21.57.84
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: node8.liudonghoe.com
+  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
-    path: /hoe8
+    path: /lMnsZUN4/
     headers:
-      Host: node8.liudonghoe.com
-- name: 🇺🇸 美国 (United States) 111 - joyye
+      Host: v2ray1.dozapp.xyz
+- name: 🇺🇸 美国 (United States) 272 - joyye
+  type: vless
+  server: 188.164.248.169
+  port: 443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /dh
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 273 - joyye
+  type: vless
+  server: 104.18.1.1
+  port: 2083
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vlsovip.1d.mom
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vlsovip.1d.mom
+- name: 🇺🇸 美国 (United States) 274 - joyye
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM-TOOTFFARANGI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 275 - joyye
+  type: vless
+  server: 47.251.101.248
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /html/movies/watch?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 276 - joyye
+  type: ss
+  server: 156.146.38.168
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 277 - joyye
+  type: ss
+  server: 156.146.38.169
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 278 - joyye
+  type: vless
+  server: 104.17.189.78
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 279 - joyye
+  type: ss
+  server: 156.146.38.170
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 280 - joyye
+  type: vless
+  server: 104.18.35.15
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 281 - joyye
+  type: ss
+  server: 37.19.198.244
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 282 - joyye
+  type: ss
+  server: 37.19.198.236
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇺🇸 美国 (United States) 283 - joyye
+  type: vless
+  server: 172.66.1.12
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /archive/special
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 284 - joyye
+  type: vless
+  server: 47.77.201.227
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /account/picture/study?ed=2560
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 285 - joyye
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 286 - joyye
+  type: vless
+  server: 172.64.67.117
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edg-2oo.pages.dev
+  network: ws
+  ws-opts:
+    path: /qa/books?ed=2560fp=chrome
+    headers:
+      Host: edg-2oo.pages.dev
+- name: 🇺🇸 美国 (United States) 287 - joyye
+  type: vless
+  server: 104.16.10.197
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 288 - joyye
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 289 - joyye
+  type: vless
+  server: 136.107.170.196
+  port: 443
+  uuid: d6d58f01-b5ce-4d47-bce0-b8a806155852
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: L1S0DpFtHPBeyENZUvJPcrFZIct6kcHUPxuzNaGXIFY
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇺🇸 美国 (United States) 290 - joyye
+  type: vless
+  server: ccs2g.pai50288.uk
+  port: 443
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccs2g.pai50288.uk
+  network: ws
+  ws-opts:
+    path: /pai50288
+    headers:
+      Host: ccs2g.pai50288.uk
+- name: 🇺🇸 美国 (United States) 291 - joyye
+  type: vless
+  server: 8.35.211.234
+  port: 443
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: d39333476.pages.dev
+  network: ws
+  ws-opts:
+    path: /en/shows
+    headers:
+      Host: d39333476.pages.dev
+- name: 🇺🇸 美国 (United States) 292 - joyye
+  type: vless
+  server: 104.18.43.174
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 293 - joyye
+  type: vless
+  server: 104.21.78.9
+  port: 443
+  uuid: 5ffee9b2-4514-4719-97b3-67810ece038d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ali-panel-1.terhav.workers.dev
+  network: ws
+  ws-opts:
+    path: /vertex
+    headers:
+      Host: ali-panel-1.terhav.workers.dev
+- name: 🇺🇸 美国 (United States) 294 - joyye
+  type: vless
+  server: 104.16.10.251
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇺🇸 美国 (United States) 295 - joyye
+  type: vless
+  server: 185.193.29.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: notls.lukongtou.eu.org
+  network: ws
+  ws-opts:
+    path: /Telegram-WangCai2≡ƒç¿≡ƒç│
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: 🇺🇸 美国 (United States) 296 - joyye
+  type: vless
+  server: 172.64.144.82
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 297 - joyye
+  type: vless
+  server: 104.26.5.57
+  port: 2087
+  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: c7dabe95.proxy-978.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c7dabe95.proxy-978.pages.dev
+- name: 🇺🇸 美国 (United States) 298 - joyye
+  type: vless
+  server: 172.67.155.65
+  port: 8443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇺🇸 美国 (United States) 299 - joyye
+  type: vless
+  server: 193.233.130.119
+  port: 10443
+  uuid: 16f78e38-8df9-4658-93e8-e49feababf5b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇺🇸 美国 (United States) 300 - joyye
   type: vmess
   server: node8.liudonghoe.com
   port: 443
@@ -1284,6 +3877,34 @@ proxies:
     path: /hoe8
     headers:
       Host: ''
+- name: 🇺🇸 美国 (United States) 301 - joyye
+  type: vless
+  server: 199.181.197.99
+  port: 443
+  uuid: 70756c73-0000-4000-8000-650000000000
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: parsa-panel-u48we.wotic15356.workers.dev
+  network: ws
+  ws-opts:
+    path: /pulse
+    headers:
+      Host: parsa-panel-u48we.wotic15356.workers.dev
+- name: 🇺🇸 美国 (United States) 302 - joyye
+  type: vless
+  server: 8.47.69.6
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1400,6 +4021,197 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 109 - joyye
   - 🇺🇸 美国 (United States) 110 - joyye
   - 🇺🇸 美国 (United States) 111 - joyye
+  - 🇺🇸 美国 (United States) 112 - joyye
+  - 🇺🇸 美国 (United States) 113 - joyye
+  - 🇺🇸 美国 (United States) 114 - joyye
+  - 🇺🇸 美国 (United States) 115 - joyye
+  - 🇺🇸 美国 (United States) 116 - joyye
+  - 🇺🇸 美国 (United States) 117 - joyye
+  - 🇺🇸 美国 (United States) 118 - joyye
+  - 🇺🇸 美国 (United States) 119 - joyye
+  - 🇺🇸 美国 (United States) 120 - joyye
+  - 🇺🇸 美国 (United States) 121 - joyye
+  - 🇺🇸 美国 (United States) 122 - joyye
+  - 🇺🇸 美国 (United States) 123 - joyye
+  - 🇺🇸 美国 (United States) 124 - joyye
+  - 🇺🇸 美国 (United States) 125 - joyye
+  - 🇺🇸 美国 (United States) 126 - joyye
+  - 🇺🇸 美国 (United States) 127 - joyye
+  - 🇺🇸 美国 (United States) 128 - joyye
+  - 🇺🇸 美国 (United States) 129 - joyye
+  - 🇺🇸 美国 (United States) 130 - joyye
+  - 🇺🇸 美国 (United States) 131 - joyye
+  - 🇺🇸 美国 (United States) 132 - joyye
+  - 🇺🇸 美国 (United States) 133 - joyye
+  - 🇺🇸 美国 (United States) 134 - joyye
+  - 🇺🇸 美国 (United States) 135 - joyye
+  - 🇺🇸 美国 (United States) 136 - joyye
+  - 🇺🇸 美国 (United States) 137 - joyye
+  - 🇺🇸 美国 (United States) 138 - joyye
+  - 🇺🇸 美国 (United States) 139 - joyye
+  - 🇺🇸 美国 (United States) 140 - joyye
+  - 🇺🇸 美国 (United States) 141 - joyye
+  - 🇺🇸 美国 (United States) 142 - joyye
+  - 🇺🇸 美国 (United States) 143 - joyye
+  - 🇺🇸 美国 (United States) 144 - joyye
+  - 🇺🇸 美国 (United States) 145 - joyye
+  - 🇺🇸 美国 (United States) 146 - joyye
+  - 🇺🇸 美国 (United States) 147 - joyye
+  - 🇺🇸 美国 (United States) 148 - joyye
+  - 🇺🇸 美国 (United States) 149 - joyye
+  - 🇺🇸 美国 (United States) 150 - joyye
+  - 🇺🇸 美国 (United States) 151 - joyye
+  - 🇺🇸 美国 (United States) 152 - joyye
+  - 🇺🇸 美国 (United States) 153 - joyye
+  - 🇺🇸 美国 (United States) 154 - joyye
+  - 🇺🇸 美国 (United States) 155 - joyye
+  - 🇺🇸 美国 (United States) 156 - joyye
+  - 🇺🇸 美国 (United States) 157 - joyye
+  - 🇺🇸 美国 (United States) 158 - joyye
+  - 🇺🇸 美国 (United States) 159 - joyye
+  - 🇺🇸 美国 (United States) 160 - joyye
+  - 🇺🇸 美国 (United States) 161 - joyye
+  - 🇺🇸 美国 (United States) 162 - joyye
+  - 🇺🇸 美国 (United States) 163 - joyye
+  - 🇺🇸 美国 (United States) 164 - joyye
+  - 🇺🇸 美国 (United States) 165 - joyye
+  - 🇺🇸 美国 (United States) 166 - joyye
+  - 🇺🇸 美国 (United States) 167 - joyye
+  - 🇺🇸 美国 (United States) 168 - joyye
+  - 🇺🇸 美国 (United States) 169 - joyye
+  - 🇺🇸 美国 (United States) 170 - joyye
+  - 🇺🇸 美国 (United States) 171 - joyye
+  - 🇺🇸 美国 (United States) 172 - joyye
+  - 🇺🇸 美国 (United States) 173 - joyye
+  - 🇺🇸 美国 (United States) 174 - joyye
+  - 🇺🇸 美国 (United States) 175 - joyye
+  - 🇺🇸 美国 (United States) 176 - joyye
+  - 🇺🇸 美国 (United States) 177 - joyye
+  - 🇺🇸 美国 (United States) 178 - joyye
+  - 🇺🇸 美国 (United States) 179 - joyye
+  - 🇺🇸 美国 (United States) 180 - joyye
+  - 🇺🇸 美国 (United States) 181 - joyye
+  - 🇺🇸 美国 (United States) 182 - joyye
+  - 🇺🇸 美国 (United States) 183 - joyye
+  - 🇺🇸 美国 (United States) 184 - joyye
+  - 🇺🇸 美国 (United States) 185 - joyye
+  - 🇺🇸 美国 (United States) 186 - joyye
+  - 🇺🇸 美国 (United States) 187 - joyye
+  - 🇺🇸 美国 (United States) 188 - joyye
+  - 🇺🇸 美国 (United States) 189 - joyye
+  - 🇺🇸 美国 (United States) 190 - joyye
+  - 🇺🇸 美国 (United States) 191 - joyye
+  - 🇺🇸 美国 (United States) 192 - joyye
+  - 🇺🇸 美国 (United States) 193 - joyye
+  - 🇺🇸 美国 (United States) 194 - joyye
+  - 🇺🇸 美国 (United States) 195 - joyye
+  - 🇺🇸 美国 (United States) 196 - joyye
+  - 🇺🇸 美国 (United States) 197 - joyye
+  - 🇺🇸 美国 (United States) 198 - joyye
+  - 🇺🇸 美国 (United States) 199 - joyye
+  - 🇺🇸 美国 (United States) 200 - joyye
+  - 🇺🇸 美国 (United States) 201 - joyye
+  - 🇺🇸 美国 (United States) 202 - joyye
+  - 🇺🇸 美国 (United States) 203 - joyye
+  - 🇺🇸 美国 (United States) 204 - joyye
+  - 🇺🇸 美国 (United States) 205 - joyye
+  - 🇺🇸 美国 (United States) 206 - joyye
+  - 🇺🇸 美国 (United States) 207 - joyye
+  - 🇺🇸 美国 (United States) 208 - joyye
+  - 🇺🇸 美国 (United States) 209 - joyye
+  - 🇺🇸 美国 (United States) 210 - joyye
+  - 🇺🇸 美国 (United States) 211 - joyye
+  - 🇺🇸 美国 (United States) 212 - joyye
+  - 🇺🇸 美国 (United States) 213 - joyye
+  - 🇺🇸 美国 (United States) 214 - joyye
+  - 🇺🇸 美国 (United States) 215 - joyye
+  - 🇺🇸 美国 (United States) 216 - joyye
+  - 🇺🇸 美国 (United States) 217 - joyye
+  - 🇺🇸 美国 (United States) 218 - joyye
+  - 🇺🇸 美国 (United States) 219 - joyye
+  - 🇺🇸 美国 (United States) 220 - joyye
+  - 🇺🇸 美国 (United States) 221 - joyye
+  - 🇺🇸 美国 (United States) 222 - joyye
+  - 🇺🇸 美国 (United States) 223 - joyye
+  - 🇺🇸 美国 (United States) 224 - joyye
+  - 🇺🇸 美国 (United States) 225 - joyye
+  - 🇺🇸 美国 (United States) 226 - joyye
+  - 🇺🇸 美国 (United States) 227 - joyye
+  - 🇺🇸 美国 (United States) 228 - joyye
+  - 🇺🇸 美国 (United States) 229 - joyye
+  - 🇺🇸 美国 (United States) 230 - joyye
+  - 🇺🇸 美国 (United States) 231 - joyye
+  - 🇺🇸 美国 (United States) 232 - joyye
+  - 🇺🇸 美国 (United States) 233 - joyye
+  - 🇺🇸 美国 (United States) 234 - joyye
+  - 🇺🇸 美国 (United States) 235 - joyye
+  - 🇺🇸 美国 (United States) 236 - joyye
+  - 🇺🇸 美国 (United States) 237 - joyye
+  - 🇺🇸 美国 (United States) 238 - joyye
+  - 🇺🇸 美国 (United States) 239 - joyye
+  - 🇺🇸 美国 (United States) 240 - joyye
+  - 🇺🇸 美国 (United States) 241 - joyye
+  - 🇺🇸 美国 (United States) 242 - joyye
+  - 🇺🇸 美国 (United States) 243 - joyye
+  - 🇺🇸 美国 (United States) 244 - joyye
+  - 🇺🇸 美国 (United States) 245 - joyye
+  - 🇺🇸 美国 (United States) 246 - joyye
+  - 🇺🇸 美国 (United States) 247 - joyye
+  - 🇺🇸 美国 (United States) 248 - joyye
+  - 🇺🇸 美国 (United States) 249 - joyye
+  - 🇺🇸 美国 (United States) 250 - joyye
+  - 🇺🇸 美国 (United States) 251 - joyye
+  - 🇺🇸 美国 (United States) 252 - joyye
+  - 🇺🇸 美国 (United States) 253 - joyye
+  - 🇺🇸 美国 (United States) 254 - joyye
+  - 🇺🇸 美国 (United States) 255 - joyye
+  - 🇺🇸 美国 (United States) 256 - joyye
+  - 🇺🇸 美国 (United States) 257 - joyye
+  - 🇺🇸 美国 (United States) 258 - joyye
+  - 🇺🇸 美国 (United States) 259 - joyye
+  - 🇺🇸 美国 (United States) 260 - joyye
+  - 🇺🇸 美国 (United States) 261 - joyye
+  - 🇺🇸 美国 (United States) 262 - joyye
+  - 🇺🇸 美国 (United States) 263 - joyye
+  - 🇺🇸 美国 (United States) 264 - joyye
+  - 🇺🇸 美国 (United States) 265 - joyye
+  - 🇺🇸 美国 (United States) 266 - joyye
+  - 🇺🇸 美国 (United States) 267 - joyye
+  - 🇺🇸 美国 (United States) 268 - joyye
+  - 🇺🇸 美国 (United States) 269 - joyye
+  - 🇺🇸 美国 (United States) 270 - joyye
+  - 🇺🇸 美国 (United States) 271 - joyye
+  - 🇺🇸 美国 (United States) 272 - joyye
+  - 🇺🇸 美国 (United States) 273 - joyye
+  - 🇺🇸 美国 (United States) 274 - joyye
+  - 🇺🇸 美国 (United States) 275 - joyye
+  - 🇺🇸 美国 (United States) 276 - joyye
+  - 🇺🇸 美国 (United States) 277 - joyye
+  - 🇺🇸 美国 (United States) 278 - joyye
+  - 🇺🇸 美国 (United States) 279 - joyye
+  - 🇺🇸 美国 (United States) 280 - joyye
+  - 🇺🇸 美国 (United States) 281 - joyye
+  - 🇺🇸 美国 (United States) 282 - joyye
+  - 🇺🇸 美国 (United States) 283 - joyye
+  - 🇺🇸 美国 (United States) 284 - joyye
+  - 🇺🇸 美国 (United States) 285 - joyye
+  - 🇺🇸 美国 (United States) 286 - joyye
+  - 🇺🇸 美国 (United States) 287 - joyye
+  - 🇺🇸 美国 (United States) 288 - joyye
+  - 🇺🇸 美国 (United States) 289 - joyye
+  - 🇺🇸 美国 (United States) 290 - joyye
+  - 🇺🇸 美国 (United States) 291 - joyye
+  - 🇺🇸 美国 (United States) 292 - joyye
+  - 🇺🇸 美国 (United States) 293 - joyye
+  - 🇺🇸 美国 (United States) 294 - joyye
+  - 🇺🇸 美国 (United States) 295 - joyye
+  - 🇺🇸 美国 (United States) 296 - joyye
+  - 🇺🇸 美国 (United States) 297 - joyye
+  - 🇺🇸 美国 (United States) 298 - joyye
+  - 🇺🇸 美国 (United States) 299 - joyye
+  - 🇺🇸 美国 (United States) 300 - joyye
+  - 🇺🇸 美国 (United States) 301 - joyye
+  - 🇺🇸 美国 (United States) 302 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1516,5 +4328,196 @@ proxy-groups:
   - 🇺🇸 美国 (United States) 109 - joyye
   - 🇺🇸 美国 (United States) 110 - joyye
   - 🇺🇸 美国 (United States) 111 - joyye
+  - 🇺🇸 美国 (United States) 112 - joyye
+  - 🇺🇸 美国 (United States) 113 - joyye
+  - 🇺🇸 美国 (United States) 114 - joyye
+  - 🇺🇸 美国 (United States) 115 - joyye
+  - 🇺🇸 美国 (United States) 116 - joyye
+  - 🇺🇸 美国 (United States) 117 - joyye
+  - 🇺🇸 美国 (United States) 118 - joyye
+  - 🇺🇸 美国 (United States) 119 - joyye
+  - 🇺🇸 美国 (United States) 120 - joyye
+  - 🇺🇸 美国 (United States) 121 - joyye
+  - 🇺🇸 美国 (United States) 122 - joyye
+  - 🇺🇸 美国 (United States) 123 - joyye
+  - 🇺🇸 美国 (United States) 124 - joyye
+  - 🇺🇸 美国 (United States) 125 - joyye
+  - 🇺🇸 美国 (United States) 126 - joyye
+  - 🇺🇸 美国 (United States) 127 - joyye
+  - 🇺🇸 美国 (United States) 128 - joyye
+  - 🇺🇸 美国 (United States) 129 - joyye
+  - 🇺🇸 美国 (United States) 130 - joyye
+  - 🇺🇸 美国 (United States) 131 - joyye
+  - 🇺🇸 美国 (United States) 132 - joyye
+  - 🇺🇸 美国 (United States) 133 - joyye
+  - 🇺🇸 美国 (United States) 134 - joyye
+  - 🇺🇸 美国 (United States) 135 - joyye
+  - 🇺🇸 美国 (United States) 136 - joyye
+  - 🇺🇸 美国 (United States) 137 - joyye
+  - 🇺🇸 美国 (United States) 138 - joyye
+  - 🇺🇸 美国 (United States) 139 - joyye
+  - 🇺🇸 美国 (United States) 140 - joyye
+  - 🇺🇸 美国 (United States) 141 - joyye
+  - 🇺🇸 美国 (United States) 142 - joyye
+  - 🇺🇸 美国 (United States) 143 - joyye
+  - 🇺🇸 美国 (United States) 144 - joyye
+  - 🇺🇸 美国 (United States) 145 - joyye
+  - 🇺🇸 美国 (United States) 146 - joyye
+  - 🇺🇸 美国 (United States) 147 - joyye
+  - 🇺🇸 美国 (United States) 148 - joyye
+  - 🇺🇸 美国 (United States) 149 - joyye
+  - 🇺🇸 美国 (United States) 150 - joyye
+  - 🇺🇸 美国 (United States) 151 - joyye
+  - 🇺🇸 美国 (United States) 152 - joyye
+  - 🇺🇸 美国 (United States) 153 - joyye
+  - 🇺🇸 美国 (United States) 154 - joyye
+  - 🇺🇸 美国 (United States) 155 - joyye
+  - 🇺🇸 美国 (United States) 156 - joyye
+  - 🇺🇸 美国 (United States) 157 - joyye
+  - 🇺🇸 美国 (United States) 158 - joyye
+  - 🇺🇸 美国 (United States) 159 - joyye
+  - 🇺🇸 美国 (United States) 160 - joyye
+  - 🇺🇸 美国 (United States) 161 - joyye
+  - 🇺🇸 美国 (United States) 162 - joyye
+  - 🇺🇸 美国 (United States) 163 - joyye
+  - 🇺🇸 美国 (United States) 164 - joyye
+  - 🇺🇸 美国 (United States) 165 - joyye
+  - 🇺🇸 美国 (United States) 166 - joyye
+  - 🇺🇸 美国 (United States) 167 - joyye
+  - 🇺🇸 美国 (United States) 168 - joyye
+  - 🇺🇸 美国 (United States) 169 - joyye
+  - 🇺🇸 美国 (United States) 170 - joyye
+  - 🇺🇸 美国 (United States) 171 - joyye
+  - 🇺🇸 美国 (United States) 172 - joyye
+  - 🇺🇸 美国 (United States) 173 - joyye
+  - 🇺🇸 美国 (United States) 174 - joyye
+  - 🇺🇸 美国 (United States) 175 - joyye
+  - 🇺🇸 美国 (United States) 176 - joyye
+  - 🇺🇸 美国 (United States) 177 - joyye
+  - 🇺🇸 美国 (United States) 178 - joyye
+  - 🇺🇸 美国 (United States) 179 - joyye
+  - 🇺🇸 美国 (United States) 180 - joyye
+  - 🇺🇸 美国 (United States) 181 - joyye
+  - 🇺🇸 美国 (United States) 182 - joyye
+  - 🇺🇸 美国 (United States) 183 - joyye
+  - 🇺🇸 美国 (United States) 184 - joyye
+  - 🇺🇸 美国 (United States) 185 - joyye
+  - 🇺🇸 美国 (United States) 186 - joyye
+  - 🇺🇸 美国 (United States) 187 - joyye
+  - 🇺🇸 美国 (United States) 188 - joyye
+  - 🇺🇸 美国 (United States) 189 - joyye
+  - 🇺🇸 美国 (United States) 190 - joyye
+  - 🇺🇸 美国 (United States) 191 - joyye
+  - 🇺🇸 美国 (United States) 192 - joyye
+  - 🇺🇸 美国 (United States) 193 - joyye
+  - 🇺🇸 美国 (United States) 194 - joyye
+  - 🇺🇸 美国 (United States) 195 - joyye
+  - 🇺🇸 美国 (United States) 196 - joyye
+  - 🇺🇸 美国 (United States) 197 - joyye
+  - 🇺🇸 美国 (United States) 198 - joyye
+  - 🇺🇸 美国 (United States) 199 - joyye
+  - 🇺🇸 美国 (United States) 200 - joyye
+  - 🇺🇸 美国 (United States) 201 - joyye
+  - 🇺🇸 美国 (United States) 202 - joyye
+  - 🇺🇸 美国 (United States) 203 - joyye
+  - 🇺🇸 美国 (United States) 204 - joyye
+  - 🇺🇸 美国 (United States) 205 - joyye
+  - 🇺🇸 美国 (United States) 206 - joyye
+  - 🇺🇸 美国 (United States) 207 - joyye
+  - 🇺🇸 美国 (United States) 208 - joyye
+  - 🇺🇸 美国 (United States) 209 - joyye
+  - 🇺🇸 美国 (United States) 210 - joyye
+  - 🇺🇸 美国 (United States) 211 - joyye
+  - 🇺🇸 美国 (United States) 212 - joyye
+  - 🇺🇸 美国 (United States) 213 - joyye
+  - 🇺🇸 美国 (United States) 214 - joyye
+  - 🇺🇸 美国 (United States) 215 - joyye
+  - 🇺🇸 美国 (United States) 216 - joyye
+  - 🇺🇸 美国 (United States) 217 - joyye
+  - 🇺🇸 美国 (United States) 218 - joyye
+  - 🇺🇸 美国 (United States) 219 - joyye
+  - 🇺🇸 美国 (United States) 220 - joyye
+  - 🇺🇸 美国 (United States) 221 - joyye
+  - 🇺🇸 美国 (United States) 222 - joyye
+  - 🇺🇸 美国 (United States) 223 - joyye
+  - 🇺🇸 美国 (United States) 224 - joyye
+  - 🇺🇸 美国 (United States) 225 - joyye
+  - 🇺🇸 美国 (United States) 226 - joyye
+  - 🇺🇸 美国 (United States) 227 - joyye
+  - 🇺🇸 美国 (United States) 228 - joyye
+  - 🇺🇸 美国 (United States) 229 - joyye
+  - 🇺🇸 美国 (United States) 230 - joyye
+  - 🇺🇸 美国 (United States) 231 - joyye
+  - 🇺🇸 美国 (United States) 232 - joyye
+  - 🇺🇸 美国 (United States) 233 - joyye
+  - 🇺🇸 美国 (United States) 234 - joyye
+  - 🇺🇸 美国 (United States) 235 - joyye
+  - 🇺🇸 美国 (United States) 236 - joyye
+  - 🇺🇸 美国 (United States) 237 - joyye
+  - 🇺🇸 美国 (United States) 238 - joyye
+  - 🇺🇸 美国 (United States) 239 - joyye
+  - 🇺🇸 美国 (United States) 240 - joyye
+  - 🇺🇸 美国 (United States) 241 - joyye
+  - 🇺🇸 美国 (United States) 242 - joyye
+  - 🇺🇸 美国 (United States) 243 - joyye
+  - 🇺🇸 美国 (United States) 244 - joyye
+  - 🇺🇸 美国 (United States) 245 - joyye
+  - 🇺🇸 美国 (United States) 246 - joyye
+  - 🇺🇸 美国 (United States) 247 - joyye
+  - 🇺🇸 美国 (United States) 248 - joyye
+  - 🇺🇸 美国 (United States) 249 - joyye
+  - 🇺🇸 美国 (United States) 250 - joyye
+  - 🇺🇸 美国 (United States) 251 - joyye
+  - 🇺🇸 美国 (United States) 252 - joyye
+  - 🇺🇸 美国 (United States) 253 - joyye
+  - 🇺🇸 美国 (United States) 254 - joyye
+  - 🇺🇸 美国 (United States) 255 - joyye
+  - 🇺🇸 美国 (United States) 256 - joyye
+  - 🇺🇸 美国 (United States) 257 - joyye
+  - 🇺🇸 美国 (United States) 258 - joyye
+  - 🇺🇸 美国 (United States) 259 - joyye
+  - 🇺🇸 美国 (United States) 260 - joyye
+  - 🇺🇸 美国 (United States) 261 - joyye
+  - 🇺🇸 美国 (United States) 262 - joyye
+  - 🇺🇸 美国 (United States) 263 - joyye
+  - 🇺🇸 美国 (United States) 264 - joyye
+  - 🇺🇸 美国 (United States) 265 - joyye
+  - 🇺🇸 美国 (United States) 266 - joyye
+  - 🇺🇸 美国 (United States) 267 - joyye
+  - 🇺🇸 美国 (United States) 268 - joyye
+  - 🇺🇸 美国 (United States) 269 - joyye
+  - 🇺🇸 美国 (United States) 270 - joyye
+  - 🇺🇸 美国 (United States) 271 - joyye
+  - 🇺🇸 美国 (United States) 272 - joyye
+  - 🇺🇸 美国 (United States) 273 - joyye
+  - 🇺🇸 美国 (United States) 274 - joyye
+  - 🇺🇸 美国 (United States) 275 - joyye
+  - 🇺🇸 美国 (United States) 276 - joyye
+  - 🇺🇸 美国 (United States) 277 - joyye
+  - 🇺🇸 美国 (United States) 278 - joyye
+  - 🇺🇸 美国 (United States) 279 - joyye
+  - 🇺🇸 美国 (United States) 280 - joyye
+  - 🇺🇸 美国 (United States) 281 - joyye
+  - 🇺🇸 美国 (United States) 282 - joyye
+  - 🇺🇸 美国 (United States) 283 - joyye
+  - 🇺🇸 美国 (United States) 284 - joyye
+  - 🇺🇸 美国 (United States) 285 - joyye
+  - 🇺🇸 美国 (United States) 286 - joyye
+  - 🇺🇸 美国 (United States) 287 - joyye
+  - 🇺🇸 美国 (United States) 288 - joyye
+  - 🇺🇸 美国 (United States) 289 - joyye
+  - 🇺🇸 美国 (United States) 290 - joyye
+  - 🇺🇸 美国 (United States) 291 - joyye
+  - 🇺🇸 美国 (United States) 292 - joyye
+  - 🇺🇸 美国 (United States) 293 - joyye
+  - 🇺🇸 美国 (United States) 294 - joyye
+  - 🇺🇸 美国 (United States) 295 - joyye
+  - 🇺🇸 美国 (United States) 296 - joyye
+  - 🇺🇸 美国 (United States) 297 - joyye
+  - 🇺🇸 美国 (United States) 298 - joyye
+  - 🇺🇸 美国 (United States) 299 - joyye
+  - 🇺🇸 美国 (United States) 300 - joyye
+  - 🇺🇸 美国 (United States) 301 - joyye
+  - 🇺🇸 美国 (United States) 302 - joyye
 rules:
 - MATCH,PROXIES

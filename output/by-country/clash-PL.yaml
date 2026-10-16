@@ -6,13 +6,18 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - joyye
   type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  server: 89.125.27.97
+  port: 2053
+  uuid: d18c6897-2849-456a-8c46-d7ecece47c20
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.225.89
+  servername: wzs.echo.net.eu.org
+  network: ws
+  ws-opts:
+    path: /video/HxNMGkZdGw0PRk1GVw8YF14OXkwNVVtIRg1HUlxQSwUEVRwJUx8BQRoaSVhfRhoOChkDDUs=
+    headers:
+      Host: wzs.echo.net.eu.org
 - name: 🇵🇱 PL 02 - joyye
   type: vless
   server: 2.26.225.89
@@ -40,6 +45,51 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 05 - joyye
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 06 - joyye
+  type: vless
+  server: pl4.h1cloud.net
+  port: 25080
+  uuid: 0c3ad9d5-cffd-4748-b8df-ab145288144b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+  servername: www.ceneo.pl
+  client-fingerprint: chrome
+- name: 🇵🇱 PL 07 - joyye
+  type: vless
+  server: pl4.h1cloud.net
+  port: 25080
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+  servername: www.ceneo.pl
+  client-fingerprint: random
+- name: 🇵🇱 PL 08 - joyye
+  type: vless
+  server: pl4.h1cloud.net
+  port: 25080
+  uuid: ec572cf0-1337-4c51-b4ec-ff2f538c1f4c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: CMAkhR1kevtK85rK9B5nmQtFZATsLOIq6nuG83BA8lI
+  servername: www.ceneo.pl
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -49,6 +99,10 @@ proxy-groups:
   - 🇵🇱 PL 02 - joyye
   - 🇵🇱 PL 03 - joyye
   - 🇵🇱 PL 04 - joyye
+  - 🇵🇱 PL 05 - joyye
+  - 🇵🇱 PL 06 - joyye
+  - 🇵🇱 PL 07 - joyye
+  - 🇵🇱 PL 08 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -58,5 +112,9 @@ proxy-groups:
   - 🇵🇱 PL 02 - joyye
   - 🇵🇱 PL 03 - joyye
   - 🇵🇱 PL 04 - joyye
+  - 🇵🇱 PL 05 - joyye
+  - 🇵🇱 PL 06 - joyye
+  - 🇵🇱 PL 07 - joyye
+  - 🇵🇱 PL 08 - joyye
 rules:
 - MATCH,PROXIES
