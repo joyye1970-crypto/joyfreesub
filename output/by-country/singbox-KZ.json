@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 KZ 01 - joyye"
+        "🇰🇿 KZ 01 - joyye",
+        "🇰🇿 KZ 02 - joyye",
+        "🇰🇿 KZ 03 - joyye",
+        "🇰🇿 KZ 04 - joyye",
+        "🇰🇿 KZ 05 - joyye",
+        "🇰🇿 KZ 06 - joyye",
+        "🇰🇿 KZ 07 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 KZ 01 - joyye"
+        "🇰🇿 KZ 01 - joyye",
+        "🇰🇿 KZ 02 - joyye",
+        "🇰🇿 KZ 03 - joyye",
+        "🇰🇿 KZ 04 - joyye",
+        "🇰🇿 KZ 05 - joyye",
+        "🇰🇿 KZ 06 - joyye",
+        "🇰🇿 KZ 07 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
