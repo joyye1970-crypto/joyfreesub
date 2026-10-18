@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇵🇭 PH 01 - joyye",
+        "🇵🇭 PH 02 - joyye",
+        "🇵🇭 PH 03 - joyye",
+        "🇵🇭 PH 04 - joyye",
+        "🇵🇭 PH 05 - joyye",
+        "🇵🇭 PH 06 - joyye",
+        "🇵🇭 PH 07 - joyye",
+        "🇵🇭 PH 08 - joyye",
+        "🇵🇭 PH 09 - joyye",
+        "🇵🇭 PH 10 - joyye",
+        "🇵🇭 PH 11 - joyye"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇵🇭 PH 01 - joyye",
+        "🇵🇭 PH 02 - joyye",
+        "🇵🇭 PH 03 - joyye",
+        "🇵🇭 PH 04 - joyye",
+        "🇵🇭 PH 05 - joyye",
+        "🇵🇭 PH 06 - joyye",
+        "🇵🇭 PH 07 - joyye",
+        "🇵🇭 PH 08 - joyye",
+        "🇵🇭 PH 09 - joyye",
+        "🇵🇭 PH 10 - joyye",
+        "🇵🇭 PH 11 - joyye"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
