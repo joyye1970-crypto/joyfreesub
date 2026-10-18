@@ -6,17 +6,16 @@ log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - joyye
   type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 02 - joyye
   type: vmess
   server: 152.67.8.205
@@ -29,10 +28,25 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: ''
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 03 - joyye
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇮🇳 印度 (India) 04 - joyye
   type: vless
   server: 13.140.56.100
   port: 14430
@@ -45,51 +59,31 @@ proxies:
     path: /vless
     headers:
       Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 04 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
 - name: 🇮🇳 印度 (India) 05 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 194.61.31.126
+  port: 2053
+  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 06 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 13.140.56.100
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /vless
     headers:
-      Host: ''
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 07 - joyye
   type: vmess
   server: 152.67.8.205
@@ -121,20 +115,12 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 09 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 172.105.39.124
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
 - name: 🇮🇳 印度 (India) 10 - joyye
   type: vmess
   server: 152.67.8.205
@@ -151,20 +137,18 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 11 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 13.140.56.100
+  port: 14430
+  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: ''
+    path: /vless
     headers:
-      Host: ''
+      Host: 13.140.56.100
 - name: 🇮🇳 印度 (India) 12 - joyye
   type: vmess
   server: 152.67.8.205
@@ -181,91 +165,21 @@ proxies:
     headers:
       Host: ''
 - name: 🇮🇳 印度 (India) 13 - joyye
-  type: vless
-  server: 194.61.31.126
-  port: 2053
-  uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+  type: vmess
+  server: 152.67.8.205
+  port: 80
+  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
-  servername: www.apple.com
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
 - name: 🇮🇳 印度 (India) 14 - joyye
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 15 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 16 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 17 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 18 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 19 - joyye
   type: vless
   server: 194.61.31.126
   port: 2053
@@ -277,50 +191,7 @@ proxies:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇮🇳 印度 (India) 20 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 21 - joyye
-  type: vmess
-  server: 152.67.8.205
-  port: 80
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇮🇳 印度 (India) 22 - joyye
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 23 - joyye
+- name: 🇮🇳 印度 (India) 15 - joyye
   type: vmess
   server: 152.67.8.205
   port: 80
@@ -355,14 +226,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 13 - joyye
   - 🇮🇳 印度 (India) 14 - joyye
   - 🇮🇳 印度 (India) 15 - joyye
-  - 🇮🇳 印度 (India) 16 - joyye
-  - 🇮🇳 印度 (India) 17 - joyye
-  - 🇮🇳 印度 (India) 18 - joyye
-  - 🇮🇳 印度 (India) 19 - joyye
-  - 🇮🇳 印度 (India) 20 - joyye
-  - 🇮🇳 印度 (India) 21 - joyye
-  - 🇮🇳 印度 (India) 22 - joyye
-  - 🇮🇳 印度 (India) 23 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -383,13 +246,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 13 - joyye
   - 🇮🇳 印度 (India) 14 - joyye
   - 🇮🇳 印度 (India) 15 - joyye
-  - 🇮🇳 印度 (India) 16 - joyye
-  - 🇮🇳 印度 (India) 17 - joyye
-  - 🇮🇳 印度 (India) 18 - joyye
-  - 🇮🇳 印度 (India) 19 - joyye
-  - 🇮🇳 印度 (India) 20 - joyye
-  - 🇮🇳 印度 (India) 21 - joyye
-  - 🇮🇳 印度 (India) 22 - joyye
-  - 🇮🇳 印度 (India) 23 - joyye
 rules:
 - MATCH,PROXIES
