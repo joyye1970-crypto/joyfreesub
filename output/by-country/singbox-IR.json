@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 - joyye"
+        "🇮🇷 IR 01 - joyye",
+        "🇮🇷 IR 02 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - joyye"
+        "🇮🇷 IR 01 - joyye",
+        "🇮🇷 IR 02 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },

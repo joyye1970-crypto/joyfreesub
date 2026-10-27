@@ -6,17 +6,17 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - joyye
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: uae.unixzone.us
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 02 - joyye
   type: vless
   server: 95.174.68.188
@@ -32,30 +32,30 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 03 - joyye
   type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 95.174.68.188
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - joyye
   type: vless
-  server: 185.253.116.33
-  port: 14430
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
+  server: uae.unixzone.us
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vless
+    path: /
     headers:
-      Host: 185.253.116.33
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - joyye
   type: vless
   server: 95.174.68.188
@@ -97,20 +97,20 @@ proxies:
       Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 08 - joyye
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 95.174.68.188
+  port: 14430
+  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: uae.unixzone.us
+      Host: 95.174.68.188
 - name: 🇦🇪 阿联酋 (UAE) 09 - joyye
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -124,149 +124,6 @@ proxies:
 - name: 🇦🇪 阿联酋 (UAE) 10 - joyye
   type: vless
   server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 11 - joyye
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 12 - joyye
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 13 - joyye
-  type: vless
-  server: 95.174.68.188
-  port: 14430
-  uuid: 965ffbbe-c6b6-4d5f-8dea-6d8abc55d9c0
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 95.174.68.188
-- name: 🇦🇪 阿联酋 (UAE) 14 - joyye
-  type: vless
-  server: 185.253.116.33
-  port: 14430
-  uuid: aee7ae19-672f-49d8-8a92-aa7cdfc89f89
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 185.253.116.33
-- name: 🇦🇪 阿联酋 (UAE) 15 - joyye
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 16 - joyye
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 17 - joyye
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 18 - joyye
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 19 - joyye
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 20 - joyye
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 21 - joyye
-  type: vless
-  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -292,17 +149,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 08 - joyye
   - 🇦🇪 阿联酋 (UAE) 09 - joyye
   - 🇦🇪 阿联酋 (UAE) 10 - joyye
-  - 🇦🇪 阿联酋 (UAE) 11 - joyye
-  - 🇦🇪 阿联酋 (UAE) 12 - joyye
-  - 🇦🇪 阿联酋 (UAE) 13 - joyye
-  - 🇦🇪 阿联酋 (UAE) 14 - joyye
-  - 🇦🇪 阿联酋 (UAE) 15 - joyye
-  - 🇦🇪 阿联酋 (UAE) 16 - joyye
-  - 🇦🇪 阿联酋 (UAE) 17 - joyye
-  - 🇦🇪 阿联酋 (UAE) 18 - joyye
-  - 🇦🇪 阿联酋 (UAE) 19 - joyye
-  - 🇦🇪 阿联酋 (UAE) 20 - joyye
-  - 🇦🇪 阿联酋 (UAE) 21 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -318,16 +164,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 08 - joyye
   - 🇦🇪 阿联酋 (UAE) 09 - joyye
   - 🇦🇪 阿联酋 (UAE) 10 - joyye
-  - 🇦🇪 阿联酋 (UAE) 11 - joyye
-  - 🇦🇪 阿联酋 (UAE) 12 - joyye
-  - 🇦🇪 阿联酋 (UAE) 13 - joyye
-  - 🇦🇪 阿联酋 (UAE) 14 - joyye
-  - 🇦🇪 阿联酋 (UAE) 15 - joyye
-  - 🇦🇪 阿联酋 (UAE) 16 - joyye
-  - 🇦🇪 阿联酋 (UAE) 17 - joyye
-  - 🇦🇪 阿联酋 (UAE) 18 - joyye
-  - 🇦🇪 阿联酋 (UAE) 19 - joyye
-  - 🇦🇪 阿联酋 (UAE) 20 - joyye
-  - 🇦🇪 阿联酋 (UAE) 21 - joyye
 rules:
 - MATCH,PROXIES
