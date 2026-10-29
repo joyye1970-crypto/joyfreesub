@@ -6,17 +6,18 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - joyye
   type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: e221699d-e705-4664-9162-a75a82aa3997
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
   network: ws
   ws-opts:
-    path: /
+    path: /700gvl-kr3
     headers:
-      Host: 152.69.226.63
+      Host: sg2-xr.zgrelay.com
 - name: 🇰🇷 韩国 (South Korea) 02 - joyye
   type: vmess
   server: nickgus.cc.cd
@@ -27,40 +28,40 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nickgus.cc.cd
+  servername: ''
   network: ws
   ws-opts:
     path: /photos
     headers:
-      Host: nickgus.cc.cd
+      Host: ''
 - name: 🇰🇷 韩国 (South Korea) 03 - joyye
   type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
   network: ws
   ws-opts:
-    path: /
+    path: /700gvl-kr3
     headers:
-      Host: 152.69.226.63
+      Host: sg2-xr.zgrelay.com
 - name: 🇰🇷 韩国 (South Korea) 04 - joyye
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
   network: ws
   ws-opts:
-    path: /cctv13.m3u8
+    path: /700gvl-kr3
     headers:
-      Host: kr02.a0a.xyz
+      Host: sg2-xr.zgrelay.com
 - name: 🇰🇷 韩国 (South Korea) 05 - joyye
   type: vless
   server: 152.69.226.63
@@ -75,36 +76,48 @@ proxies:
     headers:
       Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 06 - joyye
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  type: vmess
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: ''
 - name: 🇰🇷 韩国 (South Korea) 07 - joyye
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 08 - joyye
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 08 - joyye
+  type: vmess
+  server: 132.145.80.230
+  port: 80
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13.m3u8
+    headers:
+      Host: kr02.a0a.xyz
 - name: 🇰🇷 韩国 (South Korea) 09 - joyye
   type: vless
   server: 151.245.106.49
@@ -119,6 +132,20 @@ proxies:
   client-fingerprint: firefox
 - name: 🇰🇷 韩国 (South Korea) 10 - joyye
   type: vless
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
+  network: ws
+  ws-opts:
+    path: /700gvl-kr3
+    headers:
+      Host: sg2-xr.zgrelay.com
+- name: 🇰🇷 韩国 (South Korea) 11 - joyye
+  type: vless
   server: 151.245.106.49
   port: 2053
   uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
@@ -129,6 +156,70 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 12 - joyye
+  type: vless
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
+  network: ws
+  ws-opts:
+    path: /700gvl-kr3
+    headers:
+      Host: sg2-xr.zgrelay.com
+- name: 🇰🇷 韩国 (South Korea) 13 - joyye
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 14 - joyye
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 15 - joyye
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 16 - joyye
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -144,6 +235,12 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 08 - joyye
   - 🇰🇷 韩国 (South Korea) 09 - joyye
   - 🇰🇷 韩国 (South Korea) 10 - joyye
+  - 🇰🇷 韩国 (South Korea) 11 - joyye
+  - 🇰🇷 韩国 (South Korea) 12 - joyye
+  - 🇰🇷 韩国 (South Korea) 13 - joyye
+  - 🇰🇷 韩国 (South Korea) 14 - joyye
+  - 🇰🇷 韩国 (South Korea) 15 - joyye
+  - 🇰🇷 韩国 (South Korea) 16 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -159,5 +256,11 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 08 - joyye
   - 🇰🇷 韩国 (South Korea) 09 - joyye
   - 🇰🇷 韩国 (South Korea) 10 - joyye
+  - 🇰🇷 韩国 (South Korea) 11 - joyye
+  - 🇰🇷 韩国 (South Korea) 12 - joyye
+  - 🇰🇷 韩国 (South Korea) 13 - joyye
+  - 🇰🇷 韩国 (South Korea) 14 - joyye
+  - 🇰🇷 韩国 (South Korea) 15 - joyye
+  - 🇰🇷 韩国 (South Korea) 16 - joyye
 rules:
 - MATCH,PROXIES

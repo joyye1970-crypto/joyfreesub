@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - joyye"
+        "🇵🇭 PH 01 - joyye",
+        "🇵🇭 PH 02 - joyye",
+        "🇵🇭 PH 03 - joyye",
+        "🇵🇭 PH 04 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - joyye"
+        "🇵🇭 PH 01 - joyye",
+        "🇵🇭 PH 02 - joyye",
+        "🇵🇭 PH 03 - joyye",
+        "🇵🇭 PH 04 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
