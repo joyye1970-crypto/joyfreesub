@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - joyye"
+        "🇨🇳 CN 01 - joyye",
+        "🇨🇳 CN 02 - joyye",
+        "🇨🇳 CN 03 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - joyye"
+        "🇨🇳 CN 01 - joyye",
+        "🇨🇳 CN 02 - joyye",
+        "🇨🇳 CN 03 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
