@@ -5,25 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - joyye
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: random
-- name: 🇫🇷 法国 (France) 02 - joyye
   type: ss
   server: 54.36.174.140
   port: 443
   cipher: chacha20-ietf-poly1305
   password: 6heexyz
   udp: true
-- name: 🇫🇷 法国 (France) 03 - joyye
+- name: 🇫🇷 法国 (France) 02 - joyye
   type: vless
   server: 51.77.217.70
   port: 2053
@@ -35,6 +23,13 @@ proxies:
     public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
   servername: www.apple.com
   client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 03 - joyye
+  type: ss
+  server: pl140.vpnbook.com
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 6heexyz
+  udp: true
 - name: 🇫🇷 法国 (France) 04 - joyye
   type: vless
   server: ov-france1.09vpn.com
@@ -49,12 +44,14 @@ proxies:
     headers:
       Host: ov-france1.09vpn.com
 - name: 🇫🇷 法国 (France) 05 - joyye
-  type: ss
-  server: pl140.vpnbook.com
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 6heexyz
+  type: vless
+  server: w.geogame.ir
+  port: 2053
+  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: w.geogame.ir
 - name: 🇫🇷 法国 (France) 06 - joyye
   type: ss
   server: pl134.vpnbook.com
@@ -64,16 +61,19 @@ proxies:
   udp: true
 - name: 🇫🇷 法国 (France) 07 - joyye
   type: vless
-  server: 15.236.109.186
+  server: 51.77.217.70
   port: 2053
-  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: w.geogame.ir
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 08 - joyye
   type: vless
-  server: w.geogame.ir
+  server: 15.236.109.186
   port: 2053
   uuid: fbda2834-b1e7-4148-afb9-deda31036a30
   udp: true
@@ -94,6 +94,19 @@ proxies:
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 10 - joyye
   type: vless
+  server: 138.124.70.41
+  port: 14430
+  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 138.124.70.41
+- name: 🇫🇷 法国 (France) 11 - joyye
+  type: vless
   server: 15.236.109.186
   port: 2053
   uuid: fbda2834-b1e7-4148-afb9-deda31036a30
@@ -101,29 +114,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: w.geogame.ir
-- name: 🇫🇷 法国 (France) 11 - joyye
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
 - name: 🇫🇷 法国 (France) 12 - joyye
-  type: vmess
-  server: 162.19.204.71
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 13 - joyye
   type: vless
   server: 138.124.70.41
   port: 14430
@@ -136,6 +127,17 @@ proxies:
     path: /vless
     headers:
       Host: 138.124.70.41
+- name: 🇫🇷 法国 (France) 13 - joyye
+  type: vmess
+  server: 79.137.99.183
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: None
 - name: 🇫🇷 法国 (France) 14 - joyye
   type: vmess
   server: 162.19.204.71
@@ -148,24 +150,27 @@ proxies:
   skip-cert-verify: true
   servername: ''
 - name: 🇫🇷 法国 (France) 15 - joyye
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: ''
 - name: 🇫🇷 法国 (France) 16 - joyye
-  type: ss
-  server: 79.137.99.183
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  type: vmess
+  server: 46.105.222.157
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: None
 - name: 🇫🇷 法国 (France) 17 - joyye
   type: vmess
   server: 162.19.204.71
@@ -207,18 +212,39 @@ proxies:
   skip-cert-verify: true
   servername: ''
 - name: 🇫🇷 法国 (France) 21 - joyye
-  type: vless
-  server: 138.124.70.41
-  port: 14430
-  uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 138.124.70.41
+  servername: ''
+- name: 🇫🇷 法国 (France) 22 - joyye
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: random
+- name: 🇫🇷 法国 (France) 23 - joyye
+  type: vmess
+  server: 46.105.222.155
+  port: 1270
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: None
 proxy-groups:
 - name: PROXIES
   type: select
@@ -245,6 +271,8 @@ proxy-groups:
   - 🇫🇷 法国 (France) 19 - joyye
   - 🇫🇷 法国 (France) 20 - joyye
   - 🇫🇷 法国 (France) 21 - joyye
+  - 🇫🇷 法国 (France) 22 - joyye
+  - 🇫🇷 法国 (France) 23 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -271,5 +299,7 @@ proxy-groups:
   - 🇫🇷 法国 (France) 19 - joyye
   - 🇫🇷 法国 (France) 20 - joyye
   - 🇫🇷 法国 (France) 21 - joyye
+  - 🇫🇷 法国 (France) 22 - joyye
+  - 🇫🇷 法国 (France) 23 - joyye
 rules:
 - MATCH,PROXIES
