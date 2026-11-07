@@ -6,17 +6,13 @@ log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - joyye
   type: vless
-  server: 5.178.109.174
-  port: 14430
-  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  server: 194.104.94.141
+  port: 443
+  uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 5.178.109.174
+  servername: se3.shtil.io
 - name: 🇸🇪 SE 02 - joyye
   type: vless
   server: se3.shtil.io
@@ -28,6 +24,26 @@ proxies:
   servername: se3.shtil.io
 - name: 🇸🇪 SE 03 - joyye
   type: vless
+  server: 5.178.109.174
+  port: 14430
+  uuid: 80de563a-cac8-40ea-8cb0-4cb082dd92f9
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: 5.178.109.174
+- name: 🇸🇪 SE 04 - joyye
+  type: ss
+  server: 138.199.55.243
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇸🇪 SE 05 - joyye
+  type: vless
   server: 194.104.94.141
   port: 443
   uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
@@ -35,7 +51,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: se3.shtil.io
-- name: 🇸🇪 SE 04 - joyye
+- name: 🇸🇪 SE 06 - joyye
   type: vless
   server: 194.104.94.141
   port: 443
@@ -53,6 +69,8 @@ proxy-groups:
   - 🇸🇪 SE 02 - joyye
   - 🇸🇪 SE 03 - joyye
   - 🇸🇪 SE 04 - joyye
+  - 🇸🇪 SE 05 - joyye
+  - 🇸🇪 SE 06 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,5 +80,7 @@ proxy-groups:
   - 🇸🇪 SE 02 - joyye
   - 🇸🇪 SE 03 - joyye
   - 🇸🇪 SE 04 - joyye
+  - 🇸🇪 SE 05 - joyye
+  - 🇸🇪 SE 06 - joyye
 rules:
 - MATCH,PROXIES
