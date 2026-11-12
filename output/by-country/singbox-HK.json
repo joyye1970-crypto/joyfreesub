@@ -6,18 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - joyye",
-        "🇱🇰 LK 02 - joyye",
-        "🇱🇰 LK 03 - joyye"
+        "🇭🇰 中国香港 (Hong Kong) 01 - joyye",
+        "🇭🇰 中国香港 (Hong Kong) 02 - joyye",
+        "🇭🇰 中国香港 (Hong Kong) 03 - joyye"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - joyye",
-        "🇱🇰 LK 02 - joyye",
-        "🇱🇰 LK 03 - joyye"
+        "🇭🇰 中国香港 (Hong Kong) 01 - joyye",
+        "🇭🇰 中国香港 (Hong Kong) 02 - joyye",
+        "🇭🇰 中国香港 (Hong Kong) 03 - joyye"
       ],
       "url": "https://www.google.com/generate_204"
     },
