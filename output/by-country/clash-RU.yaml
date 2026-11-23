@@ -5,21 +5,33 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - joyye
-  type: ss
-  server: 90.156.203.62
-  port: 5112
-  cipher: chacha20-ietf-poly1305
-  password: VVlAff77CnAU43Aoc5j15Y
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
   type: vless
-  server: 136.148.83.69
+  server: cabinet.filnex.baby
   port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
+  servername: claywick.elvano.website
+  network: ws
+  ws-opts:
+    path: /api/de7/stream
+    headers:
+      Host: cabinet.filnex.baby
+- name: 🇷🇺 俄罗斯 (Russia) 02 - joyye
+  type: vless
+  server: parchment.merlano.monster
+  port: 443
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: parchment.merlano.monster
+  network: ws
+  ws-opts:
+    path: /api/de7/stream
+    headers:
+      Host: parchment.merlano.monster
 - name: 🇷🇺 俄罗斯 (Russia) 03 - joyye
   type: vless
   server: 136.148.83.69
@@ -30,6 +42,13 @@ proxies:
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 04 - joyye
+  type: ss
+  server: 48.103.218.77
+  port: 18443
+  cipher: aes-256-gcm
+  password: 5mKjXAGrliIAlYwWDeFzkCEMIgQdFQLe
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 05 - joyye
   type: vless
   server: 136.148.83.69
   port: 443
@@ -38,7 +57,16 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 05 - joyye
+- name: 🇷🇺 俄罗斯 (Russia) 06 - joyye
+  type: vless
+  server: 136.148.83.69
+  port: 443
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 07 - joyye
   type: vless
   server: 136.148.83.69
   port: 443
@@ -47,14 +75,30 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
-- name: 🇷🇺 俄罗斯 (Russia) 06 - joyye
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+- name: 🇷🇺 俄罗斯 (Russia) 08 - joyye
+  type: vless
+  server: 136.148.83.69
+  port: 443
+  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 07 - joyye
+  tls: true
+  skip-cert-verify: true
+  servername: szqbx-ru-77dc.my-fade.cloud
+- name: 🇷🇺 俄罗斯 (Russia) 09 - joyye
+  type: vless
+  server: rowanberry.moltex.click
+  port: 443
+  uuid: 0b6a7fe0-206b-4071-9f96-cd397d1ec01a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rowanberry.moltex.click
+  network: ws
+  ws-opts:
+    path: /api/de7/stream
+    headers:
+      Host: rowanberry.moltex.click
+- name: 🇷🇺 俄罗斯 (Russia) 10 - joyye
   type: vless
   server: 147.45.175.81
   port: 443
@@ -65,18 +109,9 @@ proxies:
   servername: xsru2.freeddns.org
   network: ws
   ws-opts:
-    path: /wsru
+    path: wsru
     headers:
       Host: xsru2.freeddns.org
-- name: 🇷🇺 俄罗斯 (Russia) 08 - joyye
-  type: vless
-  server: 136.148.83.69
-  port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
 proxy-groups:
 - name: PROXIES
   type: select
@@ -90,6 +125,8 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - joyye
   - 🇷🇺 俄罗斯 (Russia) 07 - joyye
   - 🇷🇺 俄罗斯 (Russia) 08 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 09 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 10 - joyye
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -103,5 +140,7 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 06 - joyye
   - 🇷🇺 俄罗斯 (Russia) 07 - joyye
   - 🇷🇺 俄罗斯 (Russia) 08 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 09 - joyye
+  - 🇷🇺 俄罗斯 (Russia) 10 - joyye
 rules:
 - MATCH,PROXIES
